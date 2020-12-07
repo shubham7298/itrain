@@ -3,7 +3,7 @@
 
 ### To generate md file, Run:
 > cd server
-
+>
 > wecode2md ../ivt/Clustering.pptx
 
 <br>
@@ -25,7 +25,14 @@
 <br>
 
 ### To generate static site
-> reveal-md out.md --css main.css --template custom.html --static
+> reveal-md out.md --css main.css --template custom.html --static --static-dirs=img
 
 This generates a `_static` folder containing static website code.
 <br>
+
+### Serve html slides
+> cd server
+>
+> node index
+>
+> Open `http://localhost:5000/#/`
