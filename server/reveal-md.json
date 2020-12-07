@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "plugin/audio-slideshow/plugin.js",
+        "plugin/audio-slideshow/RecordRTC.js",
+        "plugin/audio-slideshow/recorder.js"
+        ]
+}
