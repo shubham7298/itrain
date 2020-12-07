@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Generate interactive content from pptx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham7298/itrain.git"
+  },
+  "keywords": [
+    "wecode",
+    "ppt2html"
+  ],
+  "author": "Shubham Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham7298/itrain/issues"
+  },
+  "homepage": "https://github.com/shubham7298/itrain#readme",
+  "dependencies": {}
+}
