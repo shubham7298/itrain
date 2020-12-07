@@ -1,9 +1,23 @@
-# Clustering
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./_assets/main.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># Clustering
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Agenda
 
 * __Supervised vs Unsupervised learning__
@@ -20,9 +34,7 @@
   * Applications
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Supervised vs Unsupervised learning
 
 __Unsupervised Learning__
@@ -30,17 +42,13 @@ __Unsupervised Learning__
 __Supervised Learning__
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Types of Unsupervised Learning
 
 __Unsupervised Learning__
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 __Unsupervised Learning__
 
 <img src="img/Clustering0.png" width=384px />
@@ -56,17 +64,13 @@ __Hierarchical Clustering__
 __Apriori__  __Algorithm__
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Association Rule Mining
 
 <img src="img/Clustering2.jpg" width=276px />
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Clustering
 
 A _cluster_ is collection of objects whichare“similar”  between them andare“dissimilar”tothe objects belongingtootherclusters\.
@@ -76,9 +80,7 @@ Forexamplebased on theincomeofcustomerswe couldgrouptheminto“LowIncome”\,“
 Itseasytoclassify withonevariable\,butwhenseveralvariablescomeinto playthegroupingwould become difficult\.
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Distance Metrics
 
 * Many supervised and unsupervised machine learning algorithm depends upon the distance between 2 data points\.
@@ -100,9 +102,7 @@ In Cartesian coordinates\, if p = \(p1\, p2\,\.\.\.\,pn\) and q = \(q1\, q2\,\.\
 <img src="img/Clustering4.png" width=500px />
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Types of Cluster Analysis
 
 <span style="color:#FFFFFF"> __Density Clustering__ </span>
@@ -122,9 +122,7 @@ In Cartesian coordinates\, if p = \(p1\, p2\,\.\.\.\,pn\) and q = \(q1\, q2\,\.\
 <span style="color:#808080">The Clusters are defined by grouping the nearest neighbors\, based on the data points\. The idea is near by data points are more related than the other points farther away\. These cluster represents hierarchy</span>
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 __Density Clustering__
 
 __Centroid Clustering__
@@ -140,9 +138,7 @@ __Distribution Clustering__
 __Hierarchical Clustering__
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Clustering Techniques
 
 <span style="color:#808080">Hierarchical</span>
@@ -167,25 +163,19 @@ __Hierarchical Clustering__
 <span style="color:#404040">Computationally less expensive</span>
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Hierarchical Clustering
 
 Hierarchical Clustering is a method of cluster analysis which seeks to build a hierarchy of clusters\. \[Wikipedia\]
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Startwitheachobservationasindividualcluster andateach stepcombineobservations/ Clustersto  formonelarge  clusters
 
 Begin withonelargecluster  andproceed tosplitintosmaller cluster  itemsthat aremostdissimilar
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Linkages
 
 In the <span style="color:#FFC000"> __single\-link__ </span> method\, thedistance between twoclustersis the _minimum_ of thedistances betweenallpairsofpatternsdrawnonefromeachcluster\.
@@ -197,9 +187,7 @@ In the <span style="color:#FFC000"> __average\-link__ </span> algorithm\,thedist
 In the <span style="color:#FFC000"> __Centroid__ </span> method thegeometric centreiscomputed\.Thedistance between twoclustersequals  thedistance between twocentroids\.
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Agglomerative Clustering - Process
 
 At the start\, treat each data point as one cluster\. Therefore\, the number of clusters at the start will be K\, while K is an integer representing the number of data points\.
@@ -213,9 +201,7 @@ Repeat the above three steps until one big cluster is formed\.
 Once single cluster is formed\, dendrograms are used to divide into multiple clusters depending upon the problem\.
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Agglomerative Clustering
 
 <img src="img/Clustering8.png" width=418px />
@@ -225,9 +211,7 @@ Once single cluster is formed\, dendrograms are used to divide into multiple c
 Agglomerative Representation
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # K- means Clustering
 
 <img src="img/Clustering10.png" width=225px />
@@ -255,15 +239,11 @@ The mean of each clusters becomes the new centroid
 Iteration continues till it reaches convergence
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 What do you think is the ideal number of clusters?
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Step 1: Select the number of clusters to be identified \(Lets select 3 for this case\)
 
 Step 2: Randomly select 3 distinct data point \( These points are centroids for each clusters\)
@@ -273,9 +253,7 @@ Step 3: Measure the distance between first point and selected 3 clusters
 Step 4: Assign the first point to the nearest cluster \( <span style="color:#FF0000">Red</span> in the case\)
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Step 5: Calculate the mean value including the new point for the red cluster
 
 Find out which cluster the point 2 belongs to\, how?
@@ -285,31 +263,23 @@ Repeat the same procedure but measure the distance to the <span style="color:#FF
 Step 4 and 5 are repeated for each data point
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 To which cluster this point belongs to?
 
 To which cluster does this point belongs to ?
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Since all these points are closer to green cluster\, all are assigned Cluster <span style="color:#2C973E">Green</span>
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Result from 1stIteration
 
 Original/Expected Result
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 Second Iteration
 
 Minimize Within Cluster sum of squares \(WCSS\) \(i\.e\. variance\)
@@ -317,9 +287,7 @@ Minimize Within Cluster sum of squares \(WCSS\) \(i\.e\. variance\)
 <img src="img/Clustering14.jpg" width=500px />
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # WCSS and BCSS
 
 WCSS measures the variability of the observations within each cluster\.
@@ -341,9 +309,7 @@ Within Cluster Sum of Squares
 Between Clusters Sum of Squares
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Elbow method
 
 The "elbow" or "knee of a curve" as a cut\-off point is a common heuristic in  optimization to choose a point where diminishing returns are no longer worth the additional cost\.
@@ -363,9 +329,7 @@ y\-axis\-withinClustersum of  squares
 The point atwhich the chartbendsor thewcss becomessmallwould be  consideredas theoptimal numberofclusters
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Applications
 
 <img src="img/Clustering17.png" width=470px />
@@ -379,9 +343,7 @@ The point atwhich the chartbendsor thewcss becomessmallwould be  consideredas th
 <img src="img/Clustering21.png" width=275px />
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Disadvantages
 
 Difficulty in comparing quality of the clusters produced
@@ -399,12 +361,78 @@ Low capability to pass the local optimum
 <img src="img/Clustering23.jpg" width=500px />
 
 
-
----
-
+</script></section><section  data-markdown><script type="text/template">
 # Thank you
 
 
+</script></section><section  data-markdown><script type="text/template">
+</script></section></div>
+    </div>
 
----
+    <script src="./dist/reveal.js"></script>
 
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <!-- <script src="./plugin/audio-slideshow/plugin.js"></script>
+    <script src="./plugin/audio-slideshow/RecordRTC.js"></script>
+    <script src="./plugin/audio-slideshow/recorder.js"></script> -->
+    <script src="./_assets/plugin/audio-slideshow/plugin.js"></script>
+    <script src="./_assets/plugin/audio-slideshow/RecordRTC.js"></script>
+    <script src="./_assets/plugin/audio-slideshow/recorder.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        audio: {
+          prefix: 'audio-slideshow/',
+          suffix: '.ogg',
+          defaultDuration: 5,
+          textToSpeechURL: "http://api.voicerss.org/?key=ba4d2c2e7197417a8076d3782a1c90b3&hl=en-gb&c=ogg&src=",
+          advance: 500,
+          autoplay: true,
+          defaultNotes: true,
+          defaultText: true,
+          playerOpacity: 0.2,
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath, RevealAudioSlideshow, RevealAudioRecorder
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
