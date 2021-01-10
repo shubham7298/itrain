@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./_assets/main.css" />
+
+  </head>
+  <body>
+     <!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "5ffb27c73ec25b0008da981b";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<!-- End of ChatBot code -->
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># Basic Statistics for Data Science
+
+Hypothesis Testing
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Topics Covered
+
+* __Hypothesis Testing__
+  * Overview
+  * Test Scores and P\-value
+  * One\-tailed vs Two\-tailed Hypothesis tests
+  * Steps in Hypothesis testing
+  * Errors in Hypothesis testing
+  * Illustrations
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Logic of Hypothesis Testing
+
+__Claim about a population parameter__
+
+__Sample data is collected and analysed__
+
+__If data contradicts claim\, then claim is rejected__
+
+Mileage of vehicles
+
+Efficiency of a drug
+
+Average age of employees
+
+Average salary of Data Scientists
+
+Amount of fat content in food
+
+Accuracy of a test
+
+Placement ratio of universities
+
+Effectiveness of a training program
+
+…
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Hypothesis Testing
+
+__Hypothesis Testing__ is a statistical technique where a claim regarding a population parameter is tested by means of sample data
+
+__Example –__ Testing the claim about average salary of women in IT field by collecting the income data for a sample set
+
+When a hypothesis is tested\, a statistician must decide on how much  of a difference between the claim and sample mean is necessary in order to reject the null  hypothesis
+
+Alevelof significance oralpha \( __α__ \)is chosen for thehypothesistest which indicates how improbable a sample mean must be in order to be deemed _significantly different_ from the claimed mean
+
+Industry standard values for __α__ are 0\.05 and 0\.01 corresponding to 95% and 99% confidence levels respectively
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Z-score, t-score and P-value
+
+__Z score__
+
+The Z\-score is a test statistic for Z\-tests that measures the difference between an observed statistic and its hypothesized population parameter in units of standard error\.
+
+Converting an observation to a Z\-value is called _standardization_ \. To  standardize an observation in a population\, subtract the population  mean from the observation of interest and divide the result by the  population standard deviation\. The result of these calculations is the Z\- value associated with the observation of interest
+
+__t\-score__
+
+The t\-score is a test statistic for t\-tests that measures the difference between an observed sample statistic and its hypothesized population parameter in units of standard error\.
+
+A t\-test compares the observed t\-value to a critical value on the t\-distribution with \(n\-1\) degrees of freedom to determine whether the  difference between the estimated and hypothesized values of the population parameter is statistically significant
+
+__P\-value__
+
+P\-value is the probability of observing a data point as close to the hypothesized mean
+
+<img src="img/Hypothesis Testing0.png" width=500px />
+
+<img src="img/Hypothesis Testing1.jpg" width=500px />
+
+<img src="img/Hypothesis Testing2.png" width=301px />
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Hypothesis Testing – Steps for Z-test
+
+Problem statement with details of sample size\, sample mean\, population standard deviation and claim about population mean
+
+__Problem Statement__
+
+Null Hypothesis\, __H__  __0__ = Population mean claimed in problem statement
+
+Alternate Hypothesis\, __H__  __a__ = Value of parameter contradicting the claim
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value for the Z\-test statistic is calculated as: _NORM\.INV\(_  _α_  _\,0\,1\)_
+
+_α_  _= probability of Type 1 Error;_
+
+__Cut\-off value for Z\-statistic__
+
+If abs\(Test statistic\) > abs\(Cut\-off value\)\, then reject Null Hypothesis\, __H__  __0__ ;
+
+Else Do not reject Null Hypothesis\, __H__  __0__
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+Problem statement with details of sample size\, sample mean\, sample standard deviation and claim about population mean
+
+__Problem Statement__
+
+Null Hypothesis\, __H__  __0__ = Population mean claimed in problem statement
+
+Alternate Hypothesis\, __H__  __a__ = Value of parameter contradicting the claim
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value for the t\-test statistic is calculated as: _T\.INV\(_  _α_  _\, n\-1\)_
+
+_α_  _= probability of Type 1 Error;_  _n_  _= sample size_
+
+__Cut\-off value for t\-statistic__
+
+If abs\(Test statistic\) > abs\(Cut\-off value\)\, then reject Null Hypothesis\, __H__  __0__ ;
+
+Else Do not reject Null Hypothesis\, __H__  __0__
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# One-tailed vs Two-tailed test
+
+__Choice of Test statistic__
+
+__Right tailed Test__
+
+<img src="img/Hypothesis Testing3.jpg" width=453px />
+
+__H__  __0__  __:__ μ<= claimed value
+
+__H__  __a__  __:__ μ> claimed value
+
+Is the Population standard deviation known?
+
+__Left tailed Test__
+
+__H__  __0__  __:__ μ>= claimed value
+
+__H__  __a__  __:__ μ< claimed value
+
+Is the sample size
+
+more than 30?
+
+__H__  __0__  __:__ μ= claimed value
+
+__H__  __a__  __:__ μ≠claimed value
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Errors in Hypothesis Testing
+
+__Null Hypothesis is True__
+
+__Null Hypothesis is False__
+
+__Type 1 Error \(__  __α__  __\)__
+
+__\[False Positive\]__
+
+__Correct outcome \(1\-__  __β__  __\)__
+
+__\[Power of test\]__
+
+__Reject__
+
+__Null Hypothesis__
+
+__Conclusion from Hypothesis test__
+
+__Type 2 error \(__  __β__  __\)__
+
+__\[False Negative\]__
+
+__Fail to reject__
+
+__Null Hypothesis__
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+__Illustrations__
+
+
+
+Presentation title
+
+
+</script></section><section  data-markdown><script type="text/template">
+# Hypothesis Testing – Case Study 1
+
+The food label on a cookie bag states that there are at most __2__ grams of saturated fat in a single cookie\. In a sample of __35__ cookies\, it is  found that the mean amount of saturated fat per cookie is __2\.1__ grams\. Assume that the population standard deviation is __0\.25__ grams\. At __\.05__ significance level\, can we reject the claim on food label?
+
+__Problem Statement__
+
+Parameter of interest : Amount of saturated fat per cookie
+
+Null Hypothesis\, __H__  __0__ :μ<= 2
+
+Alternate Hypothesis\, __H__  __a__ :μ> 2
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value = _NORM\.INV\(_  _α_  _\,0\,1\)_
+
+= _NORM\.INV\(0\.05\,0\,1\)_ = __1\.645__
+
+__Cut\-off value for Z\-statistic__
+
+Test statistic __2\.366__ > cut\-off value __1\.645__
+
+Hence\, at \.05 significance level\, we _reject the claim_ that there is at most  2 grams of saturated fat in a cookie
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+The manufacturer claims that the mean lifetime of a light bulb  is more than 10\,000 hours\. In a sample of 30 light bulbs\, it was found  that they only last 9\,900 hours on average\. Assume the sample standard  deviation is 125 hours\. At \.05 significance level\, can we reject the claim  by the manufacturer?
+
+__Problem Statement__
+
+Parameter of interest : Amount of saturated fat per cookie
+
+Null Hypothesis\, __H__  __0__ :μ> 10000
+
+Alternate Hypothesis\, __H__  __a__ :μ<= 10000
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value = _T\.INV\(_  _α_  _\, n\-1\)_ = _T\.INV\(0\.05\, 29\)_ = __\-1\.699__
+
+__Cut\-off value for t\-statistic__
+
+Test statistic __4\.382__ > cut\-off value __1\.699__
+
+Hence\, at \.05 significance level\, we _reject the claim_ that the mean lifetime of a light bulb is more than 10000 hours
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+The mean weight of penguins found in an Antarctic colony last year was 15\.4 kg\. In a sample of 35 penguins same time this year in  the same colony\, the mean penguin weight is 14\.6 kg\. The sample standard deviation is 2\.5 kg\. At \.05 significance level\, can we reject the claim that the mean penguin weight does not differ from last year?
+
+__Problem Statement__
+
+Parameter of interest : Mean weight of penguins
+
+Null Hypothesis\, __H__  __0__ :μ= 15\.4
+
+Alternate Hypothesis\, __H__  __a__ :μ≠15\.4
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value = _T\.INV\(_  _α_  _/2\, n\-1\)_ = _T\.INV\(0\.05/2\, 34\)_ = __\-2\.032__
+
+__Cut\-off value for t\-statistic__
+
+Test statistic __1\.893__ < cut\-off value __2\.032__
+
+Hence\, at \.05 significance level\, we _fail to reject the claim_ that the mean penguin weight does not differ from last year
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+Suppose 60% of citizens voted in last election\. 85 out of 148 people in a  telephone survey said that they voted in current election\. At 0\.5  significance level\, can we reject the claim that the proportion of voters in the population is above 60% this year?
+
+__Problem Statement__
+
+Parameter of interest : Proportion of voters
+
+Null Hypothesis\, __H__  __0__ : __p__  __0__ > 0\.6
+
+Alternate Hypothesis\, __H__  __a__ : __p__  __0__ <= 0\.6
+
+__Formulation of Null and Alternate Hypotheses__
+
+__Calculation of Test statistic__
+
+Cut off value = _NORM\.INV\(_  _α_  _\,0\,1\)_ = _NORM\.INV\(0\.05\,0\,1\)_ = __\-1\.645__
+
+__Cut\-off value for Z\-statistic__
+
+Test statistic __0\.638__ > cut\-off value __1\.645__
+
+Hence\, at \.05 significance level\, we _fail to reject the claim_ that the proportion of voters is above 60% this year
+
+
+
+Basic Statistics
+
+
+</script></section><section  data-markdown><script type="text/template">
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <!-- <script src="./plugin/audio-slideshow/plugin.js"></script>
+    <script src="./plugin/audio-slideshow/RecordRTC.js"></script>
+    <script src="./plugin/audio-slideshow/recorder.js"></script> -->
+    <script src="./_assets/plugin/audio-slideshow/plugin.js"></script>
+    <script src="./_assets/plugin/audio-slideshow/RecordRTC.js"></script>
+    <script src="./_assets/plugin/audio-slideshow/recorder.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        audio: {
+          prefix: 'audio-slideshow/',
+          suffix: '.ogg',
+          defaultDuration: 5,
+          textToSpeechURL: "http://api.voicerss.org/?key=ba4d2c2e7197417a8076d3782a1c90b3&hl=en-gb&c=ogg&src=",
+          advance: 500,
+          autoplay: true,
+          defaultNotes: true,
+          defaultText: true,
+          playerOpacity: 0.2,
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath, RevealAudioSlideshow, RevealAudioRecorder
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

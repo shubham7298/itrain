@@ -61,7 +61,7 @@ app.post('/upload-pptx', async (req, res) => {
             let ppt_name = ppt_file.name;
             let nameForShell = ppt_name.replace(/\s/g,'\\ ');
             console.log(nameForShell);
-            let md_child = exec('wecode2md uploads/'+nameForShell);
+            let md_child = exec('python3 -m wecode2md uploads/'+nameForShell);
             md_child.stdout.on('data', function(data) {
                 console.log('stdout: ' + data);
                 let nameOfSite = ppt_name.replace(/\s/g,'-');

@@ -1,0 +1,20 @@
+.reveal .slides>section.present,
+.reveal .slides>section>section.present {
+    display: block;
+    z-index: 11;
+    opacity: 1;
+    
+    overflow-y: auto;
+    display: block;
+    max-height: 115vh;
+    bottom: 0px;
+    width: 120%;
+    margin-left: -120px;
+
+}
+
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}

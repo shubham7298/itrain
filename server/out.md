@@ -1,2750 +1,408 @@
-# Global Finance TransformationFinancial Reporting
+# Clustering
 
-# Financial Reporting Concepts
 
 
-
----
-
-# Learning objectives
-
-By the end of this module\, you will be able to:
-
-Statethe benefits of the new globalFinancial Reporting process
-
-Identify the Financial Reporting dimensions within the FR tool
-
-Explain the differences between the FR dimensions and P&B dimensions
-
-Describe attributes of the new standard Financial Reports as well P&B reports in FR
-
-
-
----
-
-# Topics
-
-Objective of the Reporting Platform
-
-Approach to Standardization
-
-Financial Reporting Concepts
-
-Introduction to GFT
-
-Report Parameter Overview
-
-
-
----
-
-# Vision and Key Changes
-
-    * __Vision__
-      * Our goal is to create a world class global finance function that provides consistent high quality service to business managers and our client account teams\, lowers enterprise risk and cost\, supports improved integration of the organization globally and invests in development and career path for our people\.
-
-__b\)__  __One__  __Global Reporting System__
-
-__c\) Standardized__  __Reports__
-
-__and__  __Delivery__
-
-__a\) Accounting__  __Policies__
-
-Policies will improve the comparability between our financial statements and drivestandardization\.
-
-Policies will harmonize the overall layout of reports \(e\.g\. revised P&L structured\) and the definitions of our KPIs
-
-Reduces local flexibility and individuality
-
-Individual hierarchies and aggregations of code blocks reduced to one Management hierarchy  managed by eachSub\-Area
-
-Common and consistent KPI definition
-
-Changes and enhancements are managed by a governance process owned by Global Finance
-
-Reports have a consistent layout as well as look\-and\-feel
-
-Reports look different than currently and might have a different layout \(e\.g\. order to columns\)
-
-Reports are mainly accessed via the new Reporting Portal \(self\-service\) through the intranet and not sent out via email \(some exceptions  – report books\)
-
-<span style="color:#080808">Globally consisten</span> t\, standardized and comparable information based on a consistent set of KPIs/metrics\, calculations and structures
-
-<span style="color:#080808">A consistent tool set that supports mobility of people and</span> quick <span style="color:#080808">information</span>  <span style="color:#080808">availability</span>
-
-Increased efficiency and reduced costs to run and maintain one central reporting system vs\.many
-
-
-
----
-
-# Topics
-
-Objective of the Reporting Platform
-
-Approach to Standardization
-
-Introduction to GFT
-
-Financial Reporting Concepts
-
-Report Parameter Overview
-
-
-
----
-
-# Actuals available in Financial Reporting at the code block level
-
-  * EY Organization
-
-  * <span style="color:#646464">Global</span>
-  * <span style="color:#646464">Area</span>
-  * <span style="color:#646464">Region</span>
-  * <span style="color:#646464">Locally defined structures to support local management needs</span>
-  * <span style="color:#646464">Planning & Budgeting Unit\*</span>
-  * <span style="color:#646464">Code block</span>
-
-  * <span style="color:#646464">Global</span>
-  * <span style="color:#646464">Area</span>
-  * <span style="color:#646464">Region</span>
-  * <span style="color:#646464">Locally defined</span>  <span style="color:#646464">structures to</span>
-  * <span style="color:#646464">support local management</span>
-  * <span style="color:#646464">Needs</span>
-  * <span style="color:#646464">Planning & Budgeting Unit\*</span>
-  * <span style="color:#646464">Code block</span>
-
-  * __Business Management__
-
-\*Planning & BudgetingUnit is the lowest level of detail used for both financial planning and associated management reporting
-
-
-
----
-
-# Topics
-
-Objective of the Reporting Platform
-
-Approach to Standardization
-
-Introduction to GFT
-
-Financial Reporting Concepts
-
-Report Parameter Overview
-
-
-
----
-
-# Approach to Standardization for Financial Reporting
-
-The Reporting solution will be a combination of global standardization and local flexibility
-
-
-
----
-
-# Standard Reporting vs. Ad hoc Analysis
-
-_In addition to standard reports available in the reporting portal\, a subset of users will be able to conduct ad hoc analysis using Excel_
-
-__Standard Reporting__
-
-Access via the Reporting portal through the Intranet
-
-Standardized and consistent report templates
-
-Limited access to reports\, data and functionality
-
-Functionality of reports differ for Finance and Business Management users
-
-Standard delivery methodology:pull
-
-For Business Management certain reports will be pushed
-
-* __Ad Hoc__  __Analysis__
-* Access through Microsoft Excel only for a limited number of Finance people
-* Free\-formanalysis \- notemplates available but limited to the existing data models
-* Use of Excel’s analysis functionality:
-  * Standard functionality like sorting\, grouping\, calculations
-  * Graphical functionality
-  * Pivoting functionality
-* Deliverymethodology to other audiences: individual push \(no automation\)
-
-
-
----
-
-# Topics
-
-Objective of the Reporting Platform
-
-Approach to Standardization
-
-Financial Reporting Concepts
-
-Introduction to GFT
-
-Report Parameter Overview
-
-
-
----
-
-# New Financial Reporting Concepts
-
-    * __Report Variances__
-      * Total Variance
-      * Operational Variance
-      * Exchange Rate Variance
-
-    * __Currency Conversion__
-
-    * __Weekly & Monthly Data Updates__
-
-
-
----
-
-# A. Currency ConversionOverview
-
-  * Transactions are captured in local currency in GFIS\. For management reporting purposes\, those local currency results get converted into agreed upon currencies to report on cross country results:
-    * Area Currency \(defined by each Area\)Area \- Constant
-    * Alternate Area Currency \(EMEIA only\)Alternate Area \- Constant \(EMEIA only\)
-    * Global CurrencyGlobal \- Constant
-
-
-
----
-
-# A. Currency ConversionP&L and Balance Sheet
-
-0\.27225177
-
-0\.27225487
-
-0\.27223808
-
-0\.27225645
-
-0\.27234561
-
-0\.27231342
-
-0\.27278102
-
-0\.27312013
-
-0\.27310198
-
-0\.27289123
-
-month 1 week 1
-
-week 2
-
-week 3
-
-week 4
-
-week 5
-
-month 2 week 1
-
-week 2
-
-week 3
-
-week 4
-
-month 3 week 1
-
-0\.27225177
-
-0\.27225487
-
-0\.27223808
-
-0\.27225645
-
-__0\.27234561__
-
-0\.27231342
-
-0\.27278102
-
-0\.27312013
-
-__0\.27310198__
-
-0\.27289123
-
-month 1 week 1
-
-week 2
-
-week 3
-
-week 4
-
-__week 5__
-
-month 2 week 1
-
-week 2
-
-week 3
-
-__week 4__
-
-month 3 week 1
-
-
-
----
-
-# A. Currency ConversionAdjustment during parallel run
-
-_Currency conversion in GFT\_FR is applied on a weekly basis \(consistent with Engagement Reporting\) for weekly and monthly reporting\._
-
-_GFIS\_FR converts today on a monthly basis\._
-
-_To ensure consistency during the 6\-months parallel run an adjustment to capture this conversion difference will be applied to GFT\_FR\._
-
-<img src="img/EY GFT Financial Reporting Training0.png" width=389px />
-
-<img src="img/EY GFT Financial Reporting Training1.png" width=389px />
-
-<img src="img/EY GFT Financial Reporting Training2.png" width=389px />
-
-<img src="img/EY GFT Financial Reporting Training3.png" width=389px />
-
-based on GL data
-
-based on GL data
-
-based on GL data
-
-based on ER data
-
-
-
----
-
-# B. Report Variances Total Variance
-
-_Total Variance is based on variable rates\._
-
-_Total Variance = Operational Variance \+ Exchange Rate Variance_
-
-\* Constant Rate = Plan Rate
-
-__Example: Total Variance vs Plan__
-
-__Example: Total Variance vs Prior Year__
-
-
-
----
-
-# B. Report Variances Operational Variance
-
-_Operational Variances compare scenarios based on constant rates and eliminate the effect of exchange rate fluctuations\._
-
-\* Constant Rate = Plan Rate
-
-__Example: Operational Variance vs Plan__
-
-__Example: Operational Variance vs Prior Year__
-
-
-
----
-
-# B. Report Variances Exchange Rate Variance
-
-_Exchange Rate Variance is used to show the impact of exchange rate fluctuations_
-
-__Example: Exchange Rate Variance vs Plan__
-
-\* Constant Rate = Plan Rate
-
-__Example: Exchange Rate Variance vs Prior Year__
-
-
-
----
-
-# B. Report Variances Interaction between the Currency and Variance Filters (1/2)
-
-The user has to fully understand the selections they are making in the currency and variance filter selections and how they interact in the reports
-
-  * __Depending on the combination of selections in the Currency and Variance filter dropdowns\, variances that are calculated manually may not match with what is displayed in the variance column on the reports\.__
-
-<img src="img/EY GFT Financial Reporting Training4.png" width=196px />
-
-<img src="img/EY GFT Financial Reporting Training5.png" width=196px />
-
-_Total Variance is based on variable rates_
-
-_Operational Variances compares scenarios based on constant rates and eliminate the effect of exchange rate fluctuations_
-
-_Exchange Rate Variance is used to show the impact of exchange rate fluctuations_
-
-_Drives the Actual Plan/ Outlook and PY data columns_
-
-
-
----
-
-Depending on the drop down selection in the currency and variance filter\, the user may not be able to manually calculate the variances displayed in the reports
-
-Filter Selections \- Global Constant Currency; Operational Variance
-
-__Example 1:__ The variance is an exact calculation and can be manually calculated
-
-Filter Selections \- Global Currency; Total Variance
-
-__Example 2:__ The variance is an exact calculation and can be manually calculated
-
-__Example 3:__ The variance is excluding exchange rate fluctuations and cannot be manually calculated in this example\.
-
-Common to report results across multiple currencies using the Area or Global currency combined with the operational variance\.
-
-Filter Selections \- Global Currency; Operational Variance
-
-
-
----
-
-# B. Report Variances Weekly TNR variance
-
-_The weekly reports split out the TNR variance to Plan/Outlook/Prior Year into 3 different components\._
-
-__CY Charged Hrs \* \(CY TNR Rate/Hr – PY TNR Rate/Hr\)__
-
-__PY Charged Hrs/FTE \* \(CY FTE – PY FTE \) \* PY TNR Rate/Hr__
-
-__CY FTE \* \(CY Charged Hrs/FTE \- PY Charged Hrs/FTE\) \* PY TNR Rate/Hr__
-
-Where CY = current year and PY = prior year or plan
-
-
-
----
-
-# B. Report Variances Weekly Charged Hours variance
-
-_The weekly reports split out the Charged Hours variance to Plan/Outlook/ Prior Year into 2 different components\._
-
-__PY Charged Hrs/FTE \* \(CY FTE – PY FTE \)__
-
-__CY FTE \* \(CY Charged Hrs/FTE \- PY Charged Hrs/FTE\)__
-
-Where CY = current year and PY = prior year or plan
-
-
-
----
-
-# C. Weekly and Monthly Data Updates
-
-The status of the latest load is available on the Standard/Favorite Reports page
-
-Weekly and monthly data updates
-
-<span style="color:#FFFFFF"> _Close week_ </span>  <span style="color:#FFFFFF"> _GL entries_ </span>
-
-<span style="color:#FFFFFF"> _Close_ </span>  <span style="color:#FFFFFF"> _week_ </span>  <span style="color:#FFFFFF"> _GL entries_ </span>
-
-  * Weekly data will be updated over the weekend and available each Monday
-  * Monthly data will be updated
-  * Daily during the last week of the fiscal month \(week 4 or 5\)
-  * Tuesday – Thursday during the week of the month end close \( showing data from day 1\, 2\, 3\)
-  * Adjustments in the weekly cube will be loaded with wk1 data of the following month
-  * All data will be updated as early as possible \(dependent on the availability of the data from GFIS\)
-  * After operation of the system has been transitioned to the Operating / BI group SLAs will be provided
-
-Beginning of the month
-
-Beginning of the month
-
-End of the month
-
-End of the month
-
-Final month\-end results
-
-Final month\-end results
-
-
-
----
-
-# C. Weekly and Monthly Data UpdatesData and Calculations (1/2)
-
-FTE calculations: weekly vs\. monthly data/cube
-
-  * Weekly cube gets updated on a weekly basis
-  * On the weekly cube you can select week 4 and look at the MTD number which are calculated as \(week 1 \+ week 2 \+ week 3 \+ week 4\) / 4
-
-  * Monthly cube only on a monthly basis \(with daily updates on the closing week\)
-  * Whereas the monthly cube doesn't have the week option available and therefore always calculates as \(week 1 \+ week 2 \+ week 3 \+ week 4 \+ week 5\) / 5 disregarding if any of those weeks are not available or not
-  * So until we get the week 5 update the monthly cube will show the wrong FTE numbers as they are incomplete
-  * Due to the daily updates during the last week of the month the Op Statement data is not complete and is not reasonable in many lines
-
-__Keep in mind:__
-
-Daily updates are made at month end to better support the close process and to ensure journal entries are posted correctly
-
-At certain times different data/results will appear if comparing the weekly and monthly data\. This is driven by the fact that the cubes are updated at different times\.
-
-__Example:__
-
-Example 2nd day of week 5 \(Tuesday\):Weekly cube only has the data until Friday last week \(week 4\)
-
-Whereas the monthly cube already shows the data as of the day before \(Monday of week 5\)\.
-
-
-
----
-
-Illustration
-
-__Illustration:__
-
-We are in the last week of a five week month
-
-Daily updates are being  processed during week five in the monthly cubes
-
-Since the month is not complete the FTEs in the example will be calculated as:
-
-\(W1\+W2\+W3\+W4\+W5\) / 528\,909/5 = 5\,782
-
-<img src="img/EY GFT Financial Reporting Training6.png" width=500px />
-
-
-
----
-
-# Topics
-
-Objective of the Reporting Platform
-
-Approach to Standardization
-
-Financial Reporting Concepts
-
-Introduction to GFT
-
-Report Parameter Overview
-
-
-
----
-
-# Financial Reporting Standard Report Parameters
-
-  * _Finance users will have access to the report parameters below and will be able to use the drop down menus to filter to specific cuts of data_
-
-<img src="img/EY GFT Financial Reporting Training7.png" width=352px />
-
-__Financial Reporting Standard Report Parameters__
-
-__Parameter Drop Down Fields__
-
-
-
----
-
-# FR Standard Report Parameters Organizational Hierarchy
-
-  * _Although the code block is the lowest level in the Management Dimension\, each code block element can be queried separately using the dimensions below_
-
-    * __\*OU and MU report filters are available to the Finance community only__
-
-
-
----
-
-# FR Standard Report ParametersManagement
-
-_Maintenance:_
-
-Globally defined \(down to Sub\-Area level\)
-
-Locally by Super Users \(below Sub\-Area level\)
-
-_The Management dimension captures the way EY is organized and managed internally\._
-
-_As part of release_  _1 & 2\,_  _we will only deliver one standard management hierarchy\. Additional Alternate Management_  _hierarchies_  _could follow as a future enhancement\._
-
-<img src="img/EY GFT Financial Reporting Training8.png" width=352px />
-
-* <span style="color:#646464">Globally defined allowing local flexibility</span>
-* <span style="color:#646464">Includes</span>  <span style="color:#646464">double counting for ‘Private Equity Joint Venture</span>  <span style="color:#646464">’</span>
-* <span style="color:#646464">Lowest level:</span>  <span style="color:#646464">Code block \(BU\-OU\-MU\-SMU\)</span>
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training9.png" width=299px />
-
-
-
----
-
-# FR Standard Report Parameters  Geography
-
-_Maintenance_  _:_
-
-Globally defined
-
-_The Geography dimension captures the legal\, external structure of EY\._
-
-_This structure differs from the Management dimension because_  _Sub\-Areas_  _in the Management dimension\, such as FSO and EYG Services\, are accounted for within the Countries in the Geography Dimension\._
-
-<img src="img/EY GFT Financial Reporting Training10.png" width=352px />
-
-* <span style="color:#646464">Globally</span>  <span style="color:#646464">maintained Geography hierarchy</span>
-* <span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-* <span style="color:#646464">Lowest level: BU</span>
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Select Business Management roles</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training11.png" width=280px />
-
-
-
----
-
-# FR Standard Report Parameters Operating Unit
-
-_Maintenance:_
-
-Globally defined
-
-_This dimension will consist of a flat list of all used Operating Units and will be available to Finance only on certain reports and via ad hoc_
-
-<img src="img/EY GFT Financial Reporting Training12.png" width=352px />
-
-* <span style="color:#646464">Filtering plan information using this dimension might provide skewed results</span>
-* <span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-* <span style="color:#646464">Lowest</span>  <span style="color:#646464">level:</span>  <span style="color:#646464">OUxxx</span>
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training13.png" width=197px />
-
-
-
----
-
-# FR Standard Report Parameters Management Unit
-
-_Maintenance:_
-
-Globally defined
-
-_This dimension will consist of a flat list of all used Management Units and will be available to Finance only on certain reports and via ad hoc_
-
-<img src="img/EY GFT Financial Reporting Training14.png" width=352px />
-
-* <span style="color:#646464">Filtering plan information using this dimension might provide skewed results</span>
-* <span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-* <span style="color:#646464">Lowest</span>  <span style="color:#646464">level:</span>  <span style="color:#646464">MUxxx</span>
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training15.png" width=197px />
-
-
-
----
-
-# FR Standard Report Parameters Service Line
-
-_Maintenance:_
-
-Globally defined
-
-_Globally defined structure capturing our_  _Service and Sub_  _Service_  _Lines\._
-
-_No local flexibility available to reflect a different Service Line roll up\._
-
-<img src="img/EY GFT Financial Reporting Training16.png" width=352px />
-
-<img src="img/EY GFT Financial Reporting Training17.png" width=298px />
-
-* <span style="color:#646464">Globally consistent SL hierarchy</span>
-* <span style="color:#646464">Includes</span>  <span style="color:#646464">double counting for ‘Transaction Tax’</span>  <span style="color:#646464">in TAS and</span>  <span style="color:#646464">‘Accounting Compliance & Reporting</span>  <span style="color:#646464">’ \(ACR\) in BTC</span>
-* <span style="color:#646464">Lowest level: SMU</span>
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Standard Report Parameters Markets
-
-_Maintenance:_
-
-Globally defined
-
-_Globally defined structure capturing our Markets structure_
-
-_No local flexibility available to reflect a different Markets assignment\._
-
-<span style="color:#646464">Globally consistent assignment of Sub\-Areas to markets</span>
-
-<span style="color:#646464">Lowest level: Markets itself \(e\.g\. developed markets\)</span>
-
-<span style="color:#646464">The Market dimension is only available in the ‘Executive Weekly Flash’ and ‘Executive Dashboard’ \(as well as in Ad\-Hoc\) and not as an additional filter in other reports</span>
-
-<img src="img/EY GFT Financial Reporting Training18.png" width=500px />
-
-
-
----
-
-# Standard Report Parameters Interaction between Management, Geography & SL
-
-  * _The Management\, Geography & Service Line dimensions interact with each other to achieve certain cuts of the data_
-
-
-
----
-
-# FR Standard Report Parameters Fiscal Year
-
-_Maintenance:_
-
-Globally defined
-
-_Contains the current year and 2 years of historical data_
-
-_Prior Prior Year will be available on reports which do not show a comparison between two years as Prior Prior Prior Year is not available_
-
-<img src="img/EY GFT Financial Reporting Training19.png" width=352px />
-
-* <span style="color:#646464">Captures the fiscal year to which the data is linked</span>
-* <span style="color:#646464">Audience</span>  <span style="color:#646464">:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training20.png" width=197px />
-
-\*In the FY12 reports\, FY11 data has been restated to reflect the Foundational Elements policy changes\.
-
-The FY10 Actuals have not been restated in this respect and are therefore not comparable to the FY12 structure\.
-
-
-
----
-
-# FR Standard Report Parameters Time Period
-
-_Maintenance:_
-
-Globally defined
-
-_There will be a total of 53 weeks and Week will be based on the standard global calendar \(5/4/4\)_
-
-<img src="img/EY GFT Financial Reporting Training21.png" width=352px />
-
-* <span style="color:#646464">Regular time periods such as weeks and months</span>
-* <span style="color:#646464">Weeks only available on weekly reports</span>
-* <span style="color:#646464">Month 998 is used to capture GL adjustments for a given year without booking them to a particular month</span>
-* <span style="color:#646464">Audience</span>  <span style="color:#646464">:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training22.png" width=197px />
-
-The monthly Adjustment weeks are used to capture the currency conversion adjustment mentioned in the Concepts section
-
-
-
----
-
-# FR Standard Report Parameters Period Type
-
-_Maintenance:_
-
-Globally defined
-
-_Allows user to swap between MTD and YTD views_
-
-_Additional period types will be added as part of a future release_
-
-<img src="img/EY GFT Financial Reporting Training23.png" width=352px />
-
-* <span style="color:#646464">Audience</span>  <span style="color:#646464">:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training24.png" width=195px />
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Standard Report Parameters Scenario*
-
-_\* P&B reports offer additional scenarios \(see next page\)_
-
-_Maintenance:_
-
-Globally defined
-
-* _Allows the user to swap between various categories of data_
-* _Plan / Outlook data is only available in the Current Year_
-  * _FY12 Reports will only capture the FY12 Plan Data_
-  * _FY11 Reports will only capture the FY11 Plan / Outlook Data_
-
-<img src="img/EY GFT Financial Reporting Training25.png" width=352px />
-
-* <span style="color:#646464">Actual represents GFIS GL \+ Adjustments \+ Restatements</span>
-* <span style="color:#646464">GFIS GL represents data as recorded in GFIS</span>
-* <span style="color:#646464">Adjustments captures data for non GFIS countries and outside of GFIS adjustments</span>
-* <span style="color:#646464">Restatements captures prior year restatements for accounting policy changes</span>
-* <span style="color:#646464">Audience</span>  <span style="color:#646464">:</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training26.png" width=197px />
-
-
-
----
-
-# FR Standard Report Parameters Currency*
-
-_\* P&B reports only contain constant rates_
-
-_Maintenance:_
-
-Globally defined
-
-_Allows the user to swap between Local\, Area\, Alternate Area and Global currencies_
-
-<img src="img/EY GFT Financial Reporting Training27.png" width=352px />
-
-* Constant rates are used to calculate  operational variances excluding exchange rate effects
-* <span style="color:#646464">Audience:</span>
-  * <span style="color:#646464">Business Management</span>
-  * <span style="color:#646464">Finance</span>
-
-<img src="img/EY GFT Financial Reporting Training28.png" width=196px />
-
-
-
----
-
-# FR Standard Report ParametersAdditional Drop Down Menus
-
-_There are additional report parameters which will be used to show specific cuts of data within the standard reports_
-
-<img src="img/EY GFT Financial Reporting Training29.png" width=193px />
-
-<img src="img/EY GFT Financial Reporting Training30.png" width=196px />
-
-<img src="img/EY GFT Financial Reporting Training31.png" width=352px />
-
-__Variance:__
-
-Operational Variance is the default variance\, but Exchange Rate Variance and Total Variance will also be available to Finance\.
-
-__Divisor:__
-
-This parameter serves to change the number display\.  The default will be defined as Thousands\. This can be changed on the User Preferences screen\.
-
-__Show Budget & PY Amount:__
-
-This allows the user to see the absolute amounts of the Budget & PY\.  Per default the absolute amounts will be hidden\.
-
-__Show Variance In:__
-
-% Change is the default on most reports\, and Finance user s can switch the display\.
-
-<img src="img/EY GFT Financial Reporting Training32.png" width=195px />
-
-<img src="img/EY GFT Financial Reporting Training33.png" width=199px />
-
-
-
----
-
-# FR Standard Report ParametersStructure Shown In Columns (1/2)
-
-  * _Multi\-organization reports will have an extra report parameter to allow users to select multiple organizations that they want to view in a report_
-
-<img src="img/EY GFT Financial Reporting Training34.png" width=349px />
-
-__Structure Shown in Columns:__
-
-Users are allowed to choose which structure/ organizations they would like to see across the top of some reports
-
-Reports which have this filter allow users to use a multi\-select feature in the Management\, Geography\, or Service Line parameters
-
-Allow users to display multiple organizations across a report
-
-__Multi\-Organization Reports have this parameter:__
-
-Detailed Executive Weekly Flash – Multi Organization
-
-Operations Statement – Multi Organization
-
-Summary Operations Statement – Multi Organization
-
-Indirect Expense Report – Multi Organization
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-  * _For the Executive Weekly Flash and the Executive Dashboard\, the Management\, Service Line and Markets dimensions dictate the content displayed on the report\.  The Geography dimension interacts with the other dimensions\, but the Geography hierarchy is not displayed on the face of the reports\._
-
-__Executive Weekly Flash__
-
-__Executive Dashboard__
-
-<img src="img/EY GFT Financial Reporting Training35.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training36.png" width=500px />
-
-__Management:__
-
-The Management hierarchy will always appear in rows and the Geography parameter will only influence the data in these reports
-
-__Service Line:__
-
-The Service Line hierarchy will always appear in rows in these reports\, regardless of specific parameter selections
-
-__Markets:__
-
-The Markets hierarchy will always appear in rows in these reports\, regardless of specific parameter selections\. There is no drill\-down functionality in the dimension\.
-
-
-
----
-
-# FR Standard Report ParametersShow Peer/Children
-
-  * _Users can utilize this parameter to compare peers/siblings or children members of a hierarchy within the report_
-
-<img src="img/EY GFT Financial Reporting Training37.png" width=500px />
-
-__Show Peer/Children:__
-
-Users can utilize this parameter to compare peer members of a hierarchy or children members of a hierarchy
-
-This parameter allows for comparison across management organizations
-
-__Two Reports have this parameter:__
-
-Ranking Report by Peer
-
-Executive Dashboard
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Standard Report ParametersComparison scenarios (only in P&B reports)
-
-  * _Users can utilize this parameter to compare peers/siblings or children members of a hierarchy within the report_
-
-<img src="img/EY GFT Financial Reporting Training38.png" width=500px />
-
-__Show use of base and comparison scenarios:__
-
-Base scenario parameter dictates the content of column 1
-
-Comparison scenario 1 parameter dictates that variance against column 1 is shown in column 2
-
-Comparison scenario 2 parameter dictates which variance is calculated in column 3
-
-Scenario 2 parameter dictates if the base scenario or scenario 1 is used for the variance calculation in column 3
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-  * _The following comparisons are available in P&B reports:_
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-\* MLOs will appear in drop down option as applicable month’s
-
-financial information becomes available for FY12
-
-Base Scenario drop down options are limited to FY13 Budget versions as FR should be used forActualsreporting
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Standard Report ParametersDifferences between FR & P&B reports
-
-  * _FR parameters are utilized for P&B reporting with some modifications_
-
-
-
----
-
-# Global Finance TransformationFinancial Reporting Training
-
-# Reporting Tool Navigation
-
-
-
----
-
-# Reporting Tool Navigation Topics
-
-Standard Report Folder Structure
-
-FavoriteReport Folder Structure
-
-SaveFavoriteReports
-
-Accessing the Portal
-
-Layout of Financial Reports
-
-Parameter Selections
-
-Drill Down and Drill Back
-
-
-
----
-
-# Global Finance TransformationFinancial Reporting
-
-# Ad Hoc Analysis Training
-
-
-
----
-
-# Learning objectives
-
-By the end of this module\, you will be able to:
-
-Describe all of the Financial Reporting dimensions used in pivot table analysis
-
-Create a pivot table in Excel
-
-Build custom analysis to show data in different views
-
-Use cube formulas to create spreadsheets and conduct analysis
-
-
-
----
-
-# Ad hoc Analysis Features
-
-* Ad hoc users perform the following tasks:
-  * Use Excel to connect to the database cube in the background of the Reporting application
-  * Analyze data to answer questions which could not be answered directly by standard reports
-  * View data for specific dimensions from the data source without writing spreadsheet functions
-  * Perform ad hoc / free form analysis using pivot table functionality
-  * Slice and dice data at will
-
-
-
----
-
-# Benefits of Pivot Tables
-
-There are three main reasons to organize data into Pivot Tables
-
-To summarize data from a lengthy list into a compact format
-
-To find relationships within the data that are otherwise hard to see because of the amount of detail
-
-To organize the data so that it is easy to chart
-
-
-
----
-
-# Topics
-
-Financial Reporting Dimensions Overview
-
-Log In to the Ad Hoc Cube
-
-Manage Existing Connections
-
-Create Ad Hoc Analysis
-
-Differences to GFIS\_FR
-
-Ad Hoc Excel Functionality
-
-Cube Formulas for Data Retrieval
-
-
-
----
-
-# Financial Reporting Dimensions Overview
-
-<span style="color:#646464"> __Dimensions for Financial Reporting__ </span>
-
-<span style="color:#646464">The General Ledger data is organized in ‘cubes’ with different ‘hierarchies’/ ‘dimensions</span>  <span style="color:#646464">’</span>
-
-<span style="color:#646464">A cube enables the user to analyze data in various views/slices with a quick execution</span>  <span style="color:#646464">time</span>
-
-<span style="color:#646464">These dimensions will be used as filters in reports as well as for drill\-down</span>  <span style="color:#646464">paths</span>
-
-<span style="color:#646464"> __Key dimensions for Financial Reporting are:__ </span>
-
-<span style="color:#646464">Management</span>  <span style="color:#646464">dimension</span>
-
-<span style="color:#646464">Geography dimension</span>
-
-<span style="color:#646464">Service Line</span>  <span style="color:#646464">dimension</span>
-
-<span style="color:#646464">Markets dimension</span>
-
-<span style="color:#646464">All</span>  <span style="color:#646464">the above dimension are based on full or parts of the code block\.</span>
-
-<span style="color:#646464">Other dimensions in FR include</span>  <span style="color:#646464">GL Accounts\, Time Period\, Period Type</span>  <span style="color:#646464">\(like MTD/YTD</span>  <span style="color:#646464">\)\, Currency and Scenario \(i\.e\. Actual &Plan\)</span>
-
-
-
----
-
-# FR Dimensions - Management
-
-_Maintenance:_
-
-Globally \(down to Sub\-Area level\)
-
-Locally by Super User \(below Sub Area level\)
-
-_The Management dimension captures the way EY is organized and managed internally\._
-
-_As part of release_  _1 & 2\,_  _we will only deliver one standard management hierarchy\. Additional Alternate Management_  _hierarchies_  _could follow as a future enhancement\._
-
-<img src="img/EY GFT Financial Reporting Training39.png" width=500px />
-
-<span style="color:#646464">Globally defined allowing local flexibility</span>
-
-<span style="color:#646464">Includes</span>  <span style="color:#646464">double counting for ‘Private Equity Joint Venture</span>  <span style="color:#646464">’</span>
-
-<span style="color:#646464">Lowest level:</span>  <span style="color:#646464">Code block</span>
-
-<img src="img/EY GFT Financial Reporting Training40.png" width=298px />
-
-
-
----
-
-# FR Dimensions - Geography
-
-_Maintenance_  _:_
-
-Globally defined
-
-_The Geography dimension captures the legal\, external structure of EY\._
-
-_This structure differs from the Management dimension because_  _Sub\-Areas_  _in the Management dimension\, such as FSO and EYG Services\, are accounted for within the Countries in the Geography Dimension\._
-
-<img src="img/EY GFT Financial Reporting Training41.png" width=500px />
-
-<span style="color:#646464">Globally maintained Geography hierarchy</span>
-
-<span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-
-<span style="color:#646464">Lowest level: BU</span>
-
-<img src="img/EY GFT Financial Reporting Training42.png" width=324px />
-
-
-
----
-
-# Management vs. Geography Dimension
-
-  * _The Management dimension represents the organizational structure across the Areas while the Geography dimension is purely geographical to provide a full country view_
-
-<img src="img/EY GFT Financial Reporting Training43.png" width=361px />
-
-<img src="img/EY GFT Financial Reporting Training44.png" width=293px />
-
-__Management Dimension:__
-
-Organizational hierarchy structure for management levels across the Areas
-
-There are additional Sub Areas in the  Management dimension which contain just parts of various countries\, such as FSO\, EMEIA SL Center or Area Management
-
-Ernst & Young Global is an additional Area in the Management dimension
-
-__Geography Dimension:__
-
-Purely geographic view
-
-Area and Sub Area elements in the Geography dimension end in ‘Geo’
-
-The Grand Total of the Management dimension will always equal the Grand Total of the Geography dimension\, however there will be differences on the Area/Sub Area level\.
-
-
-
----
-
-# FR Dimensions - Service Line
-
-_Maintenance:_
-
-Globally defined
-
-_Globally defined structure capturing our_  _Service and Sub Service Lines\._
-
-_No local flexibility available to reflect a different Service Line roll up\._
-
-<img src="img/EY GFT Financial Reporting Training45.png" width=500px />
-
-<span style="color:#646464">Globally consistent SL hierarchy</span>
-
-<span style="color:#646464">Includes double counting for ‘Transaction Tax’ in TAS and ‘Accounting Compliance & Reporting’ \(ACR\) in BTC</span>
-
-<span style="color:#646464">Also includes roll ups for Tax\, TAS and BTC without double counting\, only available to Finance users in ad hoc</span>
-
-<span style="color:#646464">Lowest level: SMU</span>
-
-<img src="img/EY GFT Financial Reporting Training46.png" width=268px />
-
-
-
----
-
-# FR Dimensions - Management, Geography & Service Line
-
-  * _The Management\, Geography & Service Line dimensions interact with each other to achieve certain cuts of the data_  _such as Area including and excluding EYGS_
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Dimensions - Markets
-
-_Maintenance:_
-
-Globally defined
-
-_Globally defined structure capturing our_  _Markets structure_
-
-_No local flexibility available to reflect a different_  _Markets assignment\._
-
-<img src="img/EY GFT Financial Reporting Training47.png" width=500px />
-
-<span style="color:#646464">Globally consistent assignment of Sub\-Areas to markets</span>
-
-<span style="color:#646464">Lowest level: Markets itself \(e\.g\. developed markets\); currently no hierarchy below \(but can be achieved by a cross\-join of the Management and</span>  <span style="color:#646464">Markets dimension\)</span>
-
-<img src="img/EY GFT Financial Reporting Training48.png" width=500px />
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Dimensions - How to see which Sub-Areas assigned to which Market
-
-  * _Create a cross\-join of the Markets and Management dimension in columns and drill\-down to the Sub\-Area level \(activate zero suppression\)_
-
-<img src="img/EY GFT Financial Reporting Training49.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training50.png" width=500px />
-
-This example shows all EMEIA Sub\-Areas in the ‘Developed markets segment
-
-This example shows all EMEIA Sub\-Areas in the ‘Emerging markets’ segment
-
-
-
----
-
-# FR Dimensions - Operating Unit
-
-_Maintenance:_
-
-Globally defined
-
-_This dimension will consist of a flat list of all used Operating Units and will be available to Finance only on certain reports and via ad hoc_
-
-<img src="img/EY GFT Financial Reporting Training51.png" width=500px />
-
-<span style="color:#646464">Filtering plan information using this dimension might provide skewed results</span>
-
-<span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-
-<span style="color:#646464">Lowest level: OUxxx</span>
-
-<img src="img/EY GFT Financial Reporting Training52.png" width=335px />
-
-
-
----
-
-# FR Dimensions - Management Unit
-
-_Maintenance:_
-
-Globally defined
-
-_This dimension will consist of a flat list of all used Management Units and will be available to Finance only on certain reports and via ad hoc_
-
-<img src="img/EY GFT Financial Reporting Training53.png" width=500px />
-
-<span style="color:#646464">Filtering plan information using this dimension might provide skewed results</span>
-
-<span style="color:#646464">Additional roll ups can be requested via the Super Users</span>
-
-<span style="color:#646464">Lowest level: MUxxx</span>
-
-<img src="img/EY GFT Financial Reporting Training54.png" width=283px />
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Dimensions - Organizational Hierarchy
-
-  * _Although the code block is the lowest level in the Management Dimension\, each code block element can be queried separately using the dimensions below_
-
-    * __\*OU and MU dimensions are available to the Finance community only__
-
-
-
----
-
-# FR Dimensions - GL Accounts
-
-_Maintenance:_
-
-Globally defined
-
-_Structured roll up of GL Accounts to support Operations Statement\, Balance Sheet\, Statistical Accounts and KPIs_
-
-<img src="img/EY GFT Financial Reporting Training55.png" width=341px />
-
-<img src="img/EY GFT Financial Reporting Training56.png" width=232px />
-
-<span style="color:#646464">Hierarchy of P&L\, Balance Sheet and statistical accounts including additional calculated KPIs</span>
-
-<span style="color:#646464">Optimized for analysis</span>
-
-<span style="color:#646464">Lowest level</span>  <span style="color:#646464">: GL Account</span>
-
-
-
----
-
-# FR Dimensions - Fiscal
-
-_Maintenance:_
-
-Globally defined
-
-_Contains the current year and 2 years of historical data_
-
-<img src="img/EY GFT Financial Reporting Training57.png" width=342px />
-
-<span style="color:#646464">Captures the fiscal year to which the data is linked</span>
-
-<img src="img/EY GFT Financial Reporting Training58.png" width=290px />
-
-
-
----
-
-# FR Dimensions - Period Type
-
-_Maintenance:_
-
-Globally defined
-
-  * _Allows user to swap between MTD and YTD views_
-  * _Additional period types will be added as part of a future release_
-
-<img src="img/EY GFT Financial Reporting Training59.png" width=345px />
-
-<span style="color:#646464">In addition to MTD and YTD\, it contains additional roll ups for Week</span>
-
-<img src="img/EY GFT Financial Reporting Training60.png" width=199px />
-
-
-
----
-
-# FR Dimensions - Currency*
-
-_\* P&B reports only contain constant rates_
-
-_Maintenance:_
-
-Globally defined
-
-_Allows the user to swap between Local\, Area\, Alternate Area and Global currencies_
-
-<img src="img/EY GFT Financial Reporting Training61.png" width=317px />
-
-Allows the user to look at the data in different currencies
-
-<img src="img/EY GFT Financial Reporting Training62.png" width=159px />
-
-
-
----
-
-# Currency Options per Area
-
-  * _The Global currency is US Dollar\, but each Area has a different set of currencies_
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Dimensions - Scenario*
-
-_\* P&B ad\-hoc cubes offer additional scenarios \(see next page\)_
-
-_Maintenance:_
-
-Globallydefined
-
-* _Allows the user to swap between various categories of data_
-* _Plan / Outlook data is only available in the Current Year_
-  * _FY12 cube will only capture the FY12 Plan / Outlook Data_
-  * _FY11 cube will only capture the FY11 Plan / Outlook Data_
-
-<img src="img/EY GFT Financial Reporting Training63.png" width=461px />
-
-<span style="color:#646464">Actuals</span>  <span style="color:#646464">represents GFIS GL \+ Adjustments \+ Restatements</span>
-
-<span style="color:#646464">GFIS GL represents data as recorded in GFIS</span>
-
-<span style="color:#646464">Adjustments captures data for non GFIS countries and outside of GFIS adjustments</span>
-
-<span style="color:#646464">Restatements captures prior year restatements for accounting policy changes</span>
-
-<img src="img/EY GFT Financial Reporting Training64.png" width=298px />
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# FR Dimensions - ScenarioP&B specific scenarios
-
-\* MLOs will appear in drop down option as applicable month’s
-
-financial information becomes available for FY12
-
-
-
----
-
-_new since release II_
-
-# FR Dimensions - Divisor
-
-_Maintenance:_
-
-Globallydefined
-
-* _Allows the user to choose between four different possible number formats to display a value_
-  * _Whole Number_
-  * _Thousand_
-  * _Million_
-  * _Billion_
-
-<img src="img/EY GFT Financial Reporting Training65.png" width=416px />
-
-<span style="color:#646464">This dimension serves to change the number display\.</span>
-
-<span style="color:#646464">The underlying data is still represented as whole numbers and the Divisor only influences the displayed format</span>
-
-<img src="img/EY GFT Financial Reporting Training66.png" width=306px />
-
-
-
----
-
-# Topics
-
-Financial Reporting Dimensions Overview
-
-Log In to the Ad Hoc Cube
-
-Manage Existing Connections
-
-Create Ad Hoc Analysis
-
-Differences to GFIS\_FR
-
-Ad Hoc Excel Functionality
-
-Cube Formulas for Data Retrieval
-
-
-
----
-
-# Log In to Ad Hoc Work Environment
-
-To use ad hoc analysis functionality\, the user must connect to the database using Excel 2007
-
-<img src="img/EY GFT Financial Reporting Training67.png" width=500px />
-
-__Step 1:__ Select the ‘Data’ menu
-
-__Step 2:__ Create a connection to SQL Server Analysis Cube
-
-__Step 3:__ Connect to Database Server
-
-__Step 4:__ Select a Database and Cube of the connection
-
-__Step 5:__ Name and Save the Data Connection
-
-__Step 6:__ Create a Pivot Table in an Excel worksheet
-
-
-
----
-
-# Step 1 and 2: Connect to the Cube
-
-Create connection to SQL Server Analysis Cube
-
-To start the process of creating a pivot table in Excel 2007\, select the ‘Data’ menu in Excel and click the ‘From Other Sources’ drop down to select ‘From Analysis Services’
-
-<img src="img/EY GFT Financial Reporting Training68.png" width=500px />
-
-
-
----
-
-# Step 3: Connect to Database Server
-
-Use the Data Connection Wizard to Connect to the Database Server
-
-* Enter the Server Name
-  * adhoc\-globalreporting\.ey\.net:49229
-  * Select ‘Use Windows Authentication’ radio button and click ‘Next’
-
-<img src="img/EY GFT Financial Reporting Training69.png" width=500px />
-
-
-
----
-
-<span style="color:#FF0000"> _new since release III_ </span>
-
-# Step 4: Select Database and Table/Cube
-
-Select a Database and Cube of the connection
-
-In addition to the Monthly and Weekly cubes per FY\, now a P&B\-Ad\-Hoc cube is available for FY13
-
-Select the database that you want to use in the drop down and click next to connect to the appropriate cube
-
-<img src="img/EY GFT Financial Reporting Training70.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training71.png" width=500px />
-
-
-
----
-
-# Step 5: Save Data Connection File
-
-Name\, save\, and provide a description of the data connection
-
-It is best practice to use a standard ‘Friendly Name’ within a Sub\-Area to be consistent when converting to formulas\.
-
-Enter text in the ‘File Name’
-
-Enter text in the ‘Friendly Name’ or ‘Description’ field
-
-<img src="img/EY GFT Financial Reporting Training72.png" width=500px />
-
-Edit and personalize the text in the ‘File Name’ field so that you can easily identify the data connection\, which is saved in ‘My Documents’ > ‘My Data Sources’ folder and  also in ‘Existing Connections’
-
-Edit and personalize the text in the ‘Friendly Name’ field so that you can easily identify the data connection\, which is stored in excel in ‘Existing Connections’
-
-  * __‘File Name’ and ‘Friendly Name’ Name Recommendations:__
-  * __Use a combination of FY and cube type\,__ Format: \[FY\]\_\[Type\] e\.g\.:
-
-  * FY11 cubes
-  * Monthly: FY11\_M
-  * Weekly: FY11\_W
-
-  * FY12 cubes
-  * Monthly: FY12\_M
-  * Weekly: FY12\_W
-
-
-
----
-
-# Step 6: Import Data into Pivot Table Format
-
-Create a pivot table in an Excel worksheet
-
-Select ‘PivotTable Report’ and choose a cell within your excel worksheet to place the pivot table and select ‘OK’
-
-<img src="img/EY GFT Financial Reporting Training73.png" width=436px />
-
-<img src="img/EY GFT Financial Reporting Training74.png" width=500px />
-
-
-
----
-
-# Topics
-
-Financial Reporting Dimensions Overview
-
-Log In to the Ad Hoc Cube
-
-Manage Existing Connections
-
-Create Ad Hoc Analysis
-
-Differences to GFIS\_FR
-
-Ad Hoc Excel Functionality
-
-Cube Formulas for Data Retrieval
-
-
-
----
-
-# Managing Existing Connections
-
-  * __Access Existing Connections__
-
-  * __Edit New or Existing Connections__
-
-  * __Change Cube Formula Connections__
-
-  * __Delete Existing Cube Connections__
-
-
-
----
-
-# A. Existing Connections
-
-Once the user establishes an initial cube connection\, the user can connect to the cube using the ‘Existing Connections’ icon in the ‘Data’ tab in the future
-
-<img src="img/EY GFT Financial Reporting Training75.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training76.png" width=500px />
-
-
-
----
-
-# A. Excel Connections to Cubes and Common Friendly Connection Name
-
-  * The connection string is always saved in the Excel file \(so you can send it to other people without changing/adding a new connection
-  * But please keep in mind that the user access restrictions are applied to the connection\,so the data\, filters and dimensions could look different
-
-<img src="img/EY GFT Financial Reporting Training77.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training78.png" width=500px />
-
-  * __Recommendation__
-  * __Use a combination of FY and cube type\,__ Format: \[FY\]\_\[Type\] e\.g\.:
-
-  * FY11 cubes
-  * Monthly: FY11\_M
-  * Weekly: FY11\_W
-
-  * FY12 cubes
-  * Monthly: FY12\_M
-  * Weekly: FY12\_W
-
-
-
----
-
-# B. Change the Ad hoc cube connection to another cube (1/5)
-
-Open the connection
-
-__I\. Click on connections in the Data tab of MS Excel__
-
-__II\. Mark the connection you want to edit__  __and click on “Properties”__
-
-<img src="img/EY GFT Financial Reporting Training79.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training80.png" width=500px />
-
-
-
----
-
-Edit the connection \(if it is a new connection – not an existing connection\)
-
-__III\. Click on the Definition tab__
-
-__IV\. Change friendly connection name\, description\, Server name \(and Cube name if necessary\)__
-
-<img src="img/EY GFT Financial Reporting Training81.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training82.png" width=500px />
-
-<span style="color:#0081AE"> _current friendly  name_ </span>
-
-<span style="color:#0081AE"> _new friendly  name_ </span>
-
-<span style="color:#0081AE"> _current description_ </span>
-
-<span style="color:#0081AE"> _current server_ </span>  <span style="color:#0081AE"> _name_ </span>
-
-<span style="color:#0081AE"> _\(same\) cube  name_ </span>
-
-<span style="color:#0081AE"> _current cube name_ </span>
-
-
-
----
-
-Verify connection change and update data \(if it is a new connection – not an existing connection\)
-
-__V\. Click “Ok”\, verify the prompt with “Yes” and the cube query will be updated__
-
-<img src="img/EY GFT Financial Reporting Training83.png" width=500px />
-
-  * __Please be aware__
-  * Doing that you will not replace the connection saved under “My Documents > My Data Sources”
-  * It won’t add it to your friendly connections in Excel
-  * By changing the cube name you can also change from a Monthly to a Weekly week cube or a FY11 to FY12 cube \(or vice versa\)
-  * Depending on the type of query the report might not work anymore because of structural changes in dimensions \(sp please be careful with that and keep a copy\)
-
-
-
----
-
-Edit the connection \(if you want to use an existing connection\)
-
-__III\. Click on the Definition tab and click on Browse__
-
-__IV\. Select the connection file and click on “Open”__
-
-<img src="img/EY GFT Financial Reporting Training84.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training85.png" width=500px />
-
-<span style="color:#0081AE"> _current friendly  name_ </span>
-
-<span style="color:#0081AE"> _current description_ </span>
-
-<span style="color:#0081AE"> _current server_ </span>  <span style="color:#0081AE"> _name_ </span>
-
-<span style="color:#0081AE"> _current cube name_ </span>
-
-
-
----
-
-Verify connection change and update data \(if you want to use an existing connection\)
-
-__V\. The connection string is updated and you need to change the connection name and description__
-
-__VI\. Click “Ok” and the cube query will be updated__
-
-<img src="img/EY GFT Financial Reporting Training86.png" width=500px />
-
-<span style="color:#0081AE"> _new friendly  name_ </span>
-
-  * __Please be aware__
-  * Selecting the connection file does not replace the friendly name
-  * By changing the cube name you can also change from a Monthly to a Weekly week cube or a FY11 to FY12 cube \(or vice versa\)
-  * Depending on the type of query the report might not work anymore because of structural changes in dimensions \(sp please be careful with that and keep a copy\)
-
-<span style="color:#0081AE"> _Connection string was update from the file selected_ </span>
-
-
-
----
-
-# C. Change Ad hoc cube connection based on a pure Cube-Formula-based report (1/2)
-
-__I\. Add the new cube connection \(as you normally set up access to any cube\) or choose an existing one__
-
-__II\. Look up if the connection is available in the Excel file__
-
-<img src="img/EY GFT Financial Reporting Training87.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training88.png" width=500px />
-
-_Both connections are existing in the file now_
-
-As the last step of the connection process you need to select “Only Create Connection” \(instead of PivotTable Report\)\. This will only add the connection \(to “Connections” in the “Data” tab in Excel\)
-
-
-
----
-
-__III\. Use the “Search and Replace” functionality of Excel to replace the old friendly name \(pointing to UAT\) with the new friendly name \(pointing to Production\)__
-
-<img src="img/EY GFT Financial Reporting Training89.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training90.png" width=500px />
-
-
-
----
-
-# D. Delete Existing Ad hoc Cube Connections (1/3)
-
-<img src="img/EY GFT Financial Reporting Training91.png" width=500px />
-
-1\) Where is the connection saved
-
-__Based on your settings when creating the connection__
-
-__The connection is saved under__  _My Documents > My Data Sources …_
-
-<img src="img/EY GFT Financial Reporting Training92.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training93.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training94.png" width=500px />
-
-__… and shown under “Existing__  __Connections” in MS Excel__
-
-
-
----
-
-<img src="img/EY GFT Financial Reporting Training95.png" width=500px />
-
-2a\) Delete connections in Excel
-
-<img src="img/EY GFT Financial Reporting Training96.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training97.png" width=500px />
-
-  * __Do the following steps__
-  * Open “Existing Connections” in MS Excel
-  * Select the file/connection you want to delete
-  * Delete it \(right click > Delete\) or press the Delete button and verify with “Yes”
-  * Click Cancel
-  * It will disappear in your “Existing Connections” in MS Excel after you closed the “Existing Connections” prompt and opened it again
-
-
-
----
-
-2b\) Delete connections in Explorer
-
-<img src="img/EY GFT Financial Reporting Training98.png" width=500px />
-
-  * __Do the following steps__
-  * Open “My Data Sources” within your “My Documents” folder
-  * Select the file/connection you want to delete
-  * Delete it \(right click > Delete\) or press the Delete button and verify with “Yes”
-  * It will disappear in your “Existing Connections” in MS Excel afterwards
-
-
-
----
-
-# Topics
-
-Financial Reporting Dimensions Overview
-
-Log In to the Ad Hoc Cube
-
-Manage Existing Connections
-
-Create Ad Hoc Analysis
-
-Differences to GFIS\_FR
-
-Ad Hoc Excel Functionality
-
-Cube Formulas for Data Retrieval
-
-
-
----
-
-# Layout of Ad Hoc Analysis Work Environment
-
-Users can build a pivot table by using the ‘PivotTable Field List’ panel
-
-<img src="img/EY GFT Financial Reporting Training99.png" width=500px />
-
-PivotTable Ribbon/Toolbar
-
-Select the dimensions that you want to incorporate within your table to build a report\.
-
-One or multiple elements can be selected within each dimension
-
-The dimensions selected in this section will dictate the data that is displayed within the table
-
-The dimensions/ ’fields’ selected in the ‘PivotTable Field List’ will be automatically placed in one of these four quadrants\.
-
-Only dimensions with a summation sign will be placed in the ‘Values’ quadrant
-
-The user can drag and drop selections between ‘Report Filter’\, ‘Row Labels’\, and ‘Column Labels’ to customize the table
-
-PivotTable Workspace
-
-PivotTable Field List
-
-
-
----
-
-# PivotTable Field List
-
-Users can alter the layout of the PivotTable Field List based on personal preferences
-
-<img src="img/EY GFT Financial Reporting Training100.png" width=265px />
-
-<img src="img/EY GFT Financial Reporting Training101.jpg" width=265px />
-
-<img src="img/EY GFT Financial Reporting Training102.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training103.png" width=500px />
-
-
-
----
-
-# PivotTable Field List Quadrants
-
-The placement of the dimensions within the quadrants will influence the layout of the pivot table
-
-__Report Filters__
-
-Allows user to focus on specific sections of data
-
-Multiple dimensions can be displayed simultaneously as report  filters
-
-__Column Labels__
-
-Date and time hierarchies are automatically added to the Column Labels quadrant
-
-Use Column Labels to display fields as columns at the top of the report
-
-Columns lower in position in the Column Labels quadrant are nested within another column immediately above it
-
-<img src="img/EY GFT Financial Reporting Training104.png" width=313px />
-
-__Row Labels__
-
-Non\-numeric dimensions/fields are automatically added to Row Labels
-
-Use Row Labels to display fields as rows on the side of the report
-
-Rows lower in position in the Row Labels quadrant are nested within another row immediately above it
-
-__Values__
-
-The Values quadrant is used specifically to display numeric data
-
-
-
----
-
-# Build an Ad hoc analysis in Excel
-
-To build and design ad hoc analysis\, users can format and customize reports by selecting dimensions
-
-__Step 1:__ Select a dimension as a Value
-
-__Step 2:__ Select dimension\(s\) for Row Labels
-
-__Step 3:__ Select dimension\(s\) for Column Labels
-
-__Step 4:__ Select dimension\(s\) for Report Filters
-
-<img src="img/EY GFT Financial Reporting Training105.png" width=500px />
-
-
-
----
-
-# Step 1: Select Dimension as a Value
-
-Values are used to display numeric data so the Currency dimension will always default to the Values quadrant
-
-* Select field/dimension from the ‘PivotTable Field List’ to add to the ‘Values’ field
-  * All fields with summation signs indicate the field to be a ‘Value’ or measure
-  * In this instance\, choose one or more currencies for the ‘Value’
-
-<img src="img/EY GFT Financial Reporting Training106.png" width=185px />
-
-<img src="img/EY GFT Financial Reporting Training107.png" width=157px />
-
-<img src="img/EY GFT Financial Reporting Training108.png" width=217px />
-
-
-
----
-
-# Step 2: Select Dimension(s) for Row Labels
-
-Select the ‘Account’ dimension as a Row Label
-
-Select ‘Account’ field/dimension from the ‘PivotTable Field List’ to add to the ‘Row Labels’
-
-<img src="img/EY GFT Financial Reporting Training109.png" width=184px />
-
-<img src="img/EY GFT Financial Reporting Training110.png" width=165px />
-
-<img src="img/EY GFT Financial Reporting Training111.png" width=225px />
-
-
-
----
-
-# Step 3: Select Dimension for Column Labels
-
-Select ‘Fiscal’ in the ‘Date’ dimension and place it in Column Labels
-
-Select ‘Fiscal’ field/dimension from the ‘PivotTable Field List’ to add to the ‘Column Labels’
-
-<img src="img/EY GFT Financial Reporting Training112.png" width=165px />
-
-<img src="img/EY GFT Financial Reporting Training113.png" width=163px />
-
-<img src="img/EY GFT Financial Reporting Training114.png" width=487px />
-
-
-
 ---
-
-# Step 4: Select Dimension for Report Filters
-
-Select ‘Geography’\, ‘Management’ and ‘ServiceLine’ in the ‘Organization’ dimension\, the ‘PeriodType’ dimension\, and the ‘Scenario’ dimension to place in Report Filter
-
-<img src="img/EY GFT Financial Reporting Training115.png" width=160px />
 
-<img src="img/EY GFT Financial Reporting Training116.png" width=500px />
+# Agenda
 
-<img src="img/EY GFT Financial Reporting Training117.png" width=164px />
+* __Supervised vs Unsupervised learning__
+* __Types of Unsupervised learning__
+  * Clustering
+  * Association
+* __Clustering__
+  * Types of clustering
+  * Clustering Techniques
+  * Hierarchical Clustering
+  * K\-means Clustering
+  * K\-means in python
+  * Clustering use cases
+  * Applications
 
 
 
 ---
 
-# Visual Totals
+# Supervised vs Unsupervised learning
 
-Visual totals refer to totals displayed when one or more members in a hierarchy are filtered within the pivot table\.  All totals will reflect the aggregation of only the members present and visible in the pivot table at that time\.
+__Unsupervised Learning__
 
-__Americas with US based__
+__Supervised Learning__
 
-__Americas without US based__
 
-<img src="img/EY GFT Financial Reporting Training118.png" width=500px />
 
-<img src="img/EY GFT Financial Reporting Training119.png" width=468px />
-
-<img src="img/EY GFT Financial Reporting Training120.png" width=229px />
-
-__Remove ‘US based’ hierarchy member:__
-
-Select the cell containing the hierarchy member labeled ‘US based’
-
-Click the filter icon and deselect the ‘US based’ member label
-
-Click ‘OK’
-
-Notice the ‘Americas’ total and all totals above ‘Americas’ are different in the two screenshots
-
-In one example ‘US based’ is included in the aggregated total and in the other example ‘US based’ is not included in the total because it has been removed\.
-
-When ‘US based’ is removed\, all totals above will change to exclude ‘US Based’ in the totals\.
-
-
-
 ---
-
-# Error message in MS Excel using Ad hoc cubes
 
-During the daily data updates the following two messages may occur\.  “Refresh All” will resolve this\.
+# Types of Unsupervised Learning
 
-<img src="img/EY GFT Financial Reporting Training121.jpg" width=500px />
+__Unsupervised Learning__
 
-<img src="img/EY GFT Financial Reporting Training122.png" width=500px />
 
-<img src="img/EY GFT Financial Reporting Training123.png" width=399px />
 
-<img src="img/EY GFT Financial Reporting Training124.png" width=500px />
-
-
-
 ---
-
-# Topics
 
-Financial Reporting Dimensions Overview
+__Unsupervised Learning__
 
-Log In to the Ad Hoc Cube
+<img src="img/Clustering0.png" width=384px />
 
-Manage Existing Connections
+<img src="img/Clustering1.png" width=384px />
 
-Create Ad Hoc Analysis
+__FP – growth Algorithm__
 
-Differences to GFIS\_FR
+__K\- means Clustering__
 
-Ad Hoc Excel Functionality
+__Hierarchical Clustering__
 
-Cube Formulas for Data Retrieval
+__Apriori__  __Algorithm__
 
 
 
 ---
 
-# Additional Ad hoc Excel Functionality
+# Association Rule Mining
 
-  * __Expand/Collapse Rows & Columns__
+<img src="img/Clustering2.jpg" width=276px />
 
-  * __More Fields Folder__
 
-  * __Disable Zero Suppression__
 
-  * __Drag and Drop Dimensions__
-
-  * __Choose Multiple Items in Report Filters__
-
-  * __Select Single Elements for Rows & Columns__
-
-  * __Filter Rows or Columns with Multiple Dimensions__
-
-  * __Add/Remove Totals & Sub\-Totals to Pivot Tables__
-
-  * __Show Hover Effect__
-
-  * __Calculated Members__
-
-
-
 ---
-
-# A. Expand/Collapse Rows & Columns
-
-Users can expand and collapse rows and columns in the pivot table to see additional levels of detail\.  This serves the same purpose as drill down\.
-
-Click the expand or collapse icons in the row or column to see additional levels of detail
 
-Press ‘\+’ button in front of a row to ungroup and expand this section
+# Clustering
 
-A pre\-defined number of rows appears
+A _cluster_ is collection of objects whichare“similar”  between them andare“dissimilar”tothe objects belongingtootherclusters\.
 
-This functionality is similar to drill\-down on the standard reports
+Forexamplebased on theincomeofcustomerswe couldgrouptheminto“LowIncome”\,“ModerateIncome” and“HighIncome”\.
 
-Press ‘\-’ button in front of a column to group and collapse this section
+Itseasytoclassify withonevariable\,butwhenseveralvariablescomeinto playthegroupingwould become difficult\.
 
-This functionality is similar to a drill\-back on the standard reports
 
-<img src="img/EY GFT Financial Reporting Training125.png" width=408px />
 
-
-
 ---
-
-# A. Expand Entire Field on Rows & Columns
-
-Users can expand all rows or columns on the same hierarchy level in a pivot table by using the ‘Expand Entire Field’ icon on the PivotTable toolbar
 
-<img src="img/EY GFT Financial Reporting Training126.png" width=500px />
+# Distance Metrics
 
-<img src="img/EY GFT Financial Reporting Training127.png" width=358px />
+* Many supervised and unsupervised machine learning algorithm depends upon the distance between 2 data points\.
+* Some of the distance metrics commonly used in machine learning models are\,
+  * Euclidean Distance
+  * Manhattan Distance
+  * Minkowski Distance
+  * Cosine Distance
+* The commonly used distance metrics in clustering algorithm is __Euclidean Distance__
 
-<img src="img/EY GFT Financial Reporting Training128.png" width=389px />
+<img src="img/Clustering3.jpg" width=500px />
 
-__Screen shot 1:__
+__Euclidean Distance__
 
-‘Total Assets’ member cell is selected and is collapsed across rows
+The Euclidean distance between points p and q is the length of the line segment connecting p and q
 
-‘Total Assets’ and ‘Total Liability and Equity’ are on the same hierarchy member level and are all collapsed with a ‘\+’ next to them
+In Cartesian coordinates\, if p = \(p1\, p2\,\.\.\.\,pn\) and q = \(q1\, q2\,\.\.\.\,qn\) are two points in Euclidean n\-space\, then the Euclidean distance \(d\) from p to q\, or from q to p is given by the Pythagorean formula
 
-__Screen shot 2:__
+<img src="img/Clustering4.png" width=500px />
 
-Once the user selects ‘Expand Entire Field’\, then ‘Total Assets’ will expand and show all members one level directly below
 
-All other members on the same hierarchy level as ‘Total Assets’ will also be expanded and show members one level directly below
 
-The user can select a member in a row or column with an expand box ‘\+’ next to it and click ‘Expand Entire Field’ to expand every other member on the same hierarchy level
-
-Only row or column members on the same hierarchy level as the selected cell showing a ‘\+’ next to it can be expanded
-
-The benefit is that the user can expand multiple fields at once
-
-
-
 ---
-
-# A. Collapse Entire Field on Rows & Columns
-
-Users can collapse all rows or columns on the same hierarchy level in a pivot table by using the ‘Collapse Entire Field’ icon on the PivotTable toolbar
-
-<img src="img/EY GFT Financial Reporting Training129.png" width=500px />
 
-<img src="img/EY GFT Financial Reporting Training130.png" width=476px />
+# Types of Cluster Analysis
 
-<img src="img/EY GFT Financial Reporting Training131.png" width=475px />
+<span style="color:#FFFFFF"> __Density Clustering__ </span>
 
-The user can select a member in a row or column with a collapse box ‘\-’ next to it and click ‘Collapse Entire Field’ to collapse every other member on the same hierarchy level
+<span style="color:#FFFFFF">Clusters are defined by areas of concentrated densities\. This method begins by searching for  areas of dense data points and assigns those areas to the same cluster</span>
 
-Only row or column members on the same hierarchy level as the selected cell showing a ‘\-’ next to it can be collapsed
+<span style="color:#808080"> __Centroid Clustering__ </span>
 
-The benefit is that the user can collapse multiple fields at once
+<span style="color:#808080">Each cluster is represented by a centroid which derives clusters based on the distance of the data point to the centroid of the clusters\. It minimizes the intra cluster distances maximizing the inter cluster distances</span>
 
-__Screen shot 1:__
+<span style="color:#FFFFFF"> __Distribution Clustering__ </span>
 
-‘2009’ member cell is selected and is expanded across columns
+<span style="color:#FFFFFF">This method each cluster belongs to normal distribution\.</span>  <span style="color:#FFFFFF">The idea is that the data points are divided based on probability of belonging to the same normal distribution\.</span>
 
-The next lowest level of detail \(fiscal months\) is displayed in the row immediately below  ‘2009’
+<span style="color:#808080"> __Connectivity Clustering__ </span>
 
-__Screen shot 2:__
+<span style="color:#808080">The Clusters are defined by grouping the nearest neighbors\, based on the data points\. The idea is near by data points are more related than the other points farther away\. These cluster represents hierarchy</span>
 
-Once the user selects ‘Collapse Entire Field’\, then ‘2009’ will collapse and show only members on its hierarchy level  \(ex\. 2010\)
 
-Notice that the row showing the lower level of detail in screen shot 1 has been collapsed in screen shot 2
 
-
-
 ---
-
-# B. More Fields Folder
-
-Attribute hierarchies are put into a ‘More Fields’ folder under the dimension folder to which the hierarchies belong
-
-<img src="img/EY GFT Financial Reporting Training132.png" width=173px />
-
-__Date Dimension:__
-
-The user can choose Fiscal\, which will allow the user to show both FiscalPeriod and FiscalYear  in the same analysis by using the expand and collapse functionality\.
-
-If the user only wants to select either FiscalPeriod or FiscalYear then the user can expand More Fields and choose only one of these attributes/elements\.
 
-Note: Dimensions and hierarchies related to Time are always automatically placed  in columns because it is common to display time information across the top of a report\.
+__Density Clustering__
 
-__Organization dimension__ :
+__Centroid Clustering__
 
-The user can choose between a combination of the Geography\, Management\, and ServivceLine dimensions to display in the ad hoc analysis\.
+<img src="img/Clustering5.jpg" width=500px />
 
-The user can expand the More Fields folder and see a much lower level of detail by selecting code block or individual elements of the code block\.
+<img src="img/Clustering6.png" width=186px />
 
-__Scenario dimension__ :
+<img src="img/Clustering7.jpg" width=500px />
 
-The user can choose between multiple Scenarios in the ad hoc analysis\, includingActuals\, Outlook\, Most Likely Outcome\, and Plan
+__Distribution Clustering__
 
-The user can expand the More Fields folder and see a much lower level of detail
+__Hierarchical Clustering__
 
 
 
 ---
 
-# C. Disable Zero Suppression
+# Clustering Techniques
 
-Users have the option to show rows and columns if no values are contained within the pivot table
+<span style="color:#808080">Hierarchical</span>
 
-<img src="img/EY GFT Financial Reporting Training133.png" width=437px />
+<span style="color:#808080">Clustering</span>
 
-<img src="img/EY GFT Financial Reporting Training134.png" width=248px />
+<span style="color:#808080">K\- Means</span>
 
-<img src="img/EY GFT Financial Reporting Training135.png" width=462px />
+<span style="color:#808080">Clustering</span>
 
-__PivotTable Options:__
+* <span style="color:#404040">Small Data \(N<100\)</span>
+* <span style="color:#404040">Performed by two approaches</span>
+  * <span style="color:#404040">Agglomerative</span>
+  * <span style="color:#404040">Decisive</span>
+* <span style="color:#404040">Number of clusters can be determined through final</span>  <span style="color:#404040">dendogram</span>
+* <span style="color:#404040">Computationally more expensive</span>
 
-In the ‘Display’ tab\, check both tick boxes labelled ‘Show items with no data on rows’ and ‘Show items with no data on columns’
+<span style="color:#404040">Large Data \(N>100\)</span>
 
-Row and column headers will appear even when there are no cell values
+<span style="color:#404040">Number of clusters should be pre determined</span>
 
-Right click on the pivot table and select ‘PivotTable Options’ in the drop down menu
+<span style="color:#404040">Computationally less expensive</span>
 
 
 
 ---
 
-# D. Drag and Drop Dimensions
+# Hierarchical Clustering
 
-Users can drag and drop dimensions between Row Labels\, Column Labels\, and Report filters to view data from different perspectives
+Hierarchical Clustering is a method of cluster analysis which seeks to build a hierarchy of clusters\. \[Wikipedia\]
 
-<img src="img/EY GFT Financial Reporting Training136.png" width=135px />
 
-<img src="img/EY GFT Financial Reporting Training137.png" width=134px />
 
-<img src="img/EY GFT Financial Reporting Training138.png" width=135px />
-
-The blue line indicates the order of the dimensions within the table\, which determines how the data is sliced
-
-Notice that the layout of the Excel table is different when the ‘Row Labels’ order is switched
-
-<img src="img/EY GFT Financial Reporting Training139.png" width=384px />
-
-<img src="img/EY GFT Financial Reporting Training140.png" width=399px />
-
-<img src="img/EY GFT Financial Reporting Training141.png" width=396px />
-
-
-
 ---
-
-# E. Choose Multiple Items in Report Filters
-
-Users can add multiple elements in a dimension to the table by using the Report Filters
-
-Choosing multiple items in the filters may significantly impact performance\.
-
-__Table with Multiple Data Elements__
-
-__Select Elements from PivotTable Field List__
-
-__Table with Single Data Element__
-
-<img src="img/EY GFT Financial Reporting Training142.png" width=331px />
-
-<img src="img/EY GFT Financial Reporting Training143.png" width=500px />
 
-<img src="img/EY GFT Financial Reporting Training144.png" width=324px />
+Startwitheachobservationasindividualcluster andateach stepcombineobservations/ Clustersto  formonelarge  clusters
 
-In this table\, only one data element is selected
+Begin withonelargecluster  andproceed tosplitintosmaller cluster  itemsthat aremostdissimilar
 
-The numbers in the table will reflect ‘GSA’ data only
 
-In this table\, multiple data elements are selected
 
-The user must check the ‘Select Multiple Items’ box to aggregate data
-
-The numbers in the table will reflect ‘GSA’\, ‘UK&I’\, and ‘BeNe’ data aggregated together
-
-The user can also choose which elements to incorporate within the table by selecting the filter icon within the ‘PivotTable Field List’
-
-The dimension must be in the ‘Report Filter’ quadrant to use this functionality
-
-
-
 ---
 
-# F. Select Single Elements for Rows & Columns
+# Linkages
 
-Users can select a single element or a combination of elements in the Rows and Columns within the table\, as well as in the Report Filter
+In the <span style="color:#FFC000"> __single\-link__ </span> method\, thedistance between twoclustersis the _minimum_ of thedistances betweenallpairsofpatternsdrawnonefromeachcluster\.
 
-The user can uncheck boxes in the drop down to show a specific set of elements in the rows of the pivot table
+In the <span style="color:#FFC000"> __complete\-link__ </span> algorithm\,thedistance between  twoclustersis the _maximum_ of all pairwisedistances  betweenpairsofpatternsdrawnonefromeachcluster\.
 
-All elements in the rows are selected in the drop down and displayed in the pivot table
+In the <span style="color:#FFC000"> __average\-link__ </span> algorithm\,thedistance between  twoclustersis the _average_ of all pairwisedistances  betweenpairsofpatternsdrawnonefromeachcluster\(which is thesameas thedistance betweenthe means in thevectorspace case – easiertocalculate\)\.
 
-<img src="img/EY GFT Financial Reporting Training145.png" width=413px />
+In the <span style="color:#FFC000"> __Centroid__ </span> method thegeometric centreiscomputed\.Thedistance between twoclustersequals  thedistance between twocentroids\.
 
-<img src="img/EY GFT Financial Reporting Training146.png" width=416px />
 
 
-
 ---
-
-# G. Filter Rows or Columns with Multiple Dimensions
-
-When there are multiple dimensions in a row or column then the user must select the cell of the dimension that the user wants to filter
-
-<img src="img/EY GFT Financial Reporting Training147.png" width=383px />
-
-<img src="img/EY GFT Financial Reporting Training148.png" width=100px />
-
-<img src="img/EY GFT Financial Reporting Training149.png" width=347px />
-
-<img src="img/EY GFT Financial Reporting Training150.png" width=228px />
-
-The user can also switch between dimensions in the column label drop down
-
-<img src="img/EY GFT Financial Reporting Training151.png" width=382px />
-
-<img src="img/EY GFT Financial Reporting Training152.png" width=100px />
 
-<img src="img/EY GFT Financial Reporting Training153.png" width=228px />
+# Agglomerative Clustering - Process
 
+At the start\, treat each data point as one cluster\. Therefore\, the number of clusters at the start will be K\, while K is an integer representing the number of data points\.
 
+Form a cluster by joining the two closest data points resulting in K\-1 clusters\.
 
----
-
-# H. Add Totals
-
-The user can select ‘PivotTable Options’ and in the ‘Totals & Filters’ tab the user can select ‘Show grand totals for rows’ and ‘Show grand totals for columns’
-
-<img src="img/EY GFT Financial Reporting Training154.png" width=437px />
+Form more clusters by joining the two closest clusters resulting in K\-2 clusters\.
 
-<img src="img/EY GFT Financial Reporting Training155.png" width=463px />
+Repeat the above three steps until one big cluster is formed\.
 
-<img src="img/EY GFT Financial Reporting Training156.png" width=100px />
+Once single cluster is formed\, dendrograms are used to divide into multiple clusters depending upon the problem\.
 
 
 
 ---
 
-# H. Add/Remove Sub-Totals
+# Agglomerative Clustering
 
-By default\, the pivot tables will display sub\-totals shaded in grey in the far right column of the table
+<img src="img/Clustering8.png" width=418px />
 
-<img src="img/EY GFT Financial Reporting Training157.png" width=500px />
+<img src="img/Clustering9.png" width=250px />
 
-Users can remove sub\-totals by clicking on the ‘Design’ tab under ‘PivotTable Tools’ and then clicking the ‘Subtotals’ drop down menu and selecting ‘Do Not Show Subtotals’
+Agglomerative Representation
 
-<img src="img/EY GFT Financial Reporting Training158.png" width=500px />
 
 
-
 ---
-
-# I. Show Hover Effect
-
-Users can hover over any cell in the pivot table to see the detail and property information behind a cell value or line item
-
-<img src="img/EY GFT Financial Reporting Training159.png" width=437px />
-
-<img src="img/EY GFT Financial Reporting Training160.png" width=500px />
-
-The user can control which details and properties are displayed  when hovering by using the PivotTable Options and selecting ‘Show Properties in Tooltips’ and ‘Show Contextual Tooltips’
-
-Hover mouse over a field to see the additional detail around the Term / KPI / Metric \(e\.g\. TER\)\.
-
-Example: When the user hovers over  the line item ‘Japan’\, the user will see:
-
-Parent hierarchy \(All Areas\)
-
-The order in which Japan appears in its hierarchy
-
-Drill Down path
-
-__TIP:__
 
-It is recommended to __deselect__ both tooltips
+# K- means Clustering
 
-Selecting only “ __Show Contextual Tooltips__ ’ will provide the user with information regarding the Value\, Row and Column
+<img src="img/Clustering10.png" width=225px />
 
-Selecting only “ __Show Properties in Tooltips__ ’ will provide the user with information only regarding a line item’s position in a hierarchy
+* The k\-means algorithm works on the partitioning  criteria “ <span style="color:#FFC000">maximize intra\-cluster similarity and minimize inter\-cluster  similarity</span> ”
+* The “K” in K\-Means refers to the number of clusters\.
+* For a given number of partitions \(say k\)\, the algorithm creates an initial k partitions with centroids chosen randomly
+* Then it uses the iterative reallocation technique to improve the  partitioning by moving objects from one group to other\.
+* The centroid are reassigned to the mean of all the data points in the cluster\.
+  * Clusters produced vary from one run to another\.
+* ‘Closeness’ is measured by Euclidean distance
 
-Selecting neither will disable the hover effect
+K=3\, K centroids are randomly initialised
 
+<img src="img/Clustering11.png" width=223px />
 
+K clusters are created by associating every observation with nearest centroid
 
----
-
-# J. Calculated Members
-
-Users can display values for Developed Markets\, Emerging Markets\, and FSO Markets in the ad hoc cube by selecting ‘Show calculated members from OLAP server’\.
-
-These calculated members are currently only in the ad hoc cubes\.  Eventually they will be in the portal as well\.
+<img src="img/Clustering12.jpg" width=228px />
 
-<img src="img/EY GFT Financial Reporting Training161.png" width=500px />
+The mean of each clusters becomes the new centroid
 
-<img src="img/EY GFT Financial Reporting Training162.png" width=500px />
+<img src="img/Clustering13.jpg" width=227px />
 
-<img src="img/EY GFT Financial Reporting Training163.png" width=437px />
+Iteration continues till it reaches convergence
 
 
 
 ---
-
-# Topics
-
-Financial Reporting Dimensions Overview
-
-Log In to the Ad Hoc Cube
-
-Manage Existing Connections
 
-Create Ad Hoc Analysis
+What do you think is the ideal number of clusters?
 
-Differences to GFIS\_FR
 
-Ad Hoc Excel Functionality
 
-Cube Formulas for Data Retrieval
-
-
-
 ---
-
-# Converting Pivot Tables to Formulas
-
-Converting a pivot table to formulas allows the user to access and refresh the same data that exists in the cube
-
-__Benefits__
-
-Converts a pivot table to worksheet formulas in order to utilize all Excel functionality
-
-Provides additional flexibility to customize table layouts to conduct analysis \(e\.g\. add columns/rows\)
 
-Simplifies process of creating\, updating\, and maintaining regular analysis
+Step 1: Select the number of clusters to be identified \(Lets select 3 for this case\)
 
-Data in pivot tables converted to formulas can be refreshed
+Step 2: Randomly select 3 distinct data point \( These points are centroids for each clusters\)
 
-The user can reference multiple cubes on the same excel worksheet
+Step 3: Measure the distance between first point and selected 3 clusters
 
-__Negatives__
+Step 4: Assign the first point to the nearest cluster \( <span style="color:#FF0000">Red</span> in the case\)
 
-Removes ability to expand/collapse rows and columns \(drill down\)
 
-Can continue to refresh data\, but only manually add/update elements in rows or columns
 
-
-
 ---
-
-# Convert Data to Formulas
-
-To build and design ad hoc reports\, users can format and customize reports by selecting dimensions
 
-If a user wants to send a worksheet with cube formulas to someone that does not have access to the cube then the user must copy the worksheet and paste values to a separate excel worksheet\.
+Step 5: Calculate the mean value including the new point for the red cluster
 
-* __Step 1:__ Create pivot table resembling desired layout
-* __Step 2:__ Copy pivot table to new tab within Excel worksheet\*
-* __Step 3:__ Select PivotTable Tools
-* __Step 4:__ Convert pivot table to OLAP formulas
-* __Step 5:__ Determine method to convert  filters
-  * Convert entire PivotTable and Report Filters
-  * Convert PivotTable excluding Report Filters
+Find out which cluster the point 2 belongs to\, how?
 
-<img src="img/EY GFT Financial Reporting Training164.png" width=500px />
+Repeat the same procedure but measure the distance to the <span style="color:#FF0000">red</span> mean
 
-<img src="img/EY GFT Financial Reporting Training165.png" width=204px />
+Step 4 and 5 are repeated for each data point
 
-\*This is a recommended best practice\, but is not a mandatory step in the process\.
 
 
-
 ---
-
-# Step 1: Create Pivot Table Resembling Desired Layout
-
-Create pivot table that most closely reflects the desired final layout with appropriate filtering\, sorting\, and expanding/collapsing
-
-‘Select All’ needs to be checked in the Row Labels drop down in order to convert to cube formulas\.
 
-<img src="img/EY GFT Financial Reporting Training166.png" width=500px />
+To which cluster this point belongs to?
 
-It is best practice to only have one dimension in the columns and any additional dimensions in filters\. This will allow column headings to be easily referenced in the cube formulas\.
+To which cluster does this point belongs to ?
 
-It is important to avoid overcomplicating column headings\.
 
-<img src="img/EY GFT Financial Reporting Training167.png" width=228px />
 
-
-
 ---
-
-# Step 2: Copy Pivot Table to New Tab
-
-Copy pivot table tab onto another tab within the worksheet so that you can always refer to the original pivot table before converting to formulas
-
-Select ‘Create a copy’ to copy the pivot table worksheet and select its placement within the Excel workbook\.  Click ‘OK’ to initiate the copy\.
-
-<img src="img/EY GFT Financial Reporting Training168.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training169.png" width=500px />
-
-<img src="img/EY GFT Financial Reporting Training170.png" width=290px />
 
-The tab containing the pivot table has been replicated within the Excel workbook and will allow the user to refer back to the original pivot table once the pivot table is converted to formulas\.
+Since all these points are closer to green cluster\, all are assigned Cluster <span style="color:#2C973E">Green</span>
 
-Right click on the worksheet tab in which the pivot table is located and then select ‘Move or Copy’\.
 
 
-
 ---
-
-# Step 3: Gain Access to PivotTable Tools
 
-Select a cell within the pivot table to access the PivotTable toolbar
+Result from 1stIteration
 
-After preparing a pivot table with the desired look and feel\, select a cell within the pivot table to activate the ‘PivotTable Tools’
+Original/Expected Result
 
-<img src="img/EY GFT Financial Reporting Training171.png" width=500px />
 
 
-
 ---
-
-# Step 4: Convert PivotTable to OLAP Formulas
 
-Select the ‘Options’ tab within the ‘PivotTable Tools’  and in the ‘OLAP tools’ drop down select ‘Convert to Formulas’
+Second Iteration
 
-<img src="img/EY GFT Financial Reporting Training172.png" width=500px />
+Minimize Within Cluster sum of squares \(WCSS\) \(i\.e\. variance\)
 
-<img src="img/EY GFT Financial Reporting Training173.png" width=495px />
+<img src="img/Clustering14.jpg" width=500px />
 
 
 
 ---
-
-# Step 5: Convert Report Filters
-
-The user has the option to incorporate Report Filters into the Excel worksheet before formulas are converted
-
-If the ‘Convert Report Filters’ check box is unchecked then the pivot table will be converted to formulas excluding Report Filters
-
-If the ‘Convert Report Filters’ check box is checked then the pivot table will be converted to formulas including Report Filters
 
-<img src="img/EY GFT Financial Reporting Training174.png" width=500px />
+# WCSS and BCSS
 
-<img src="img/EY GFT Financial Reporting Training175.png" width=500px />
+WCSS measures the variability of the observations within each cluster\.
 
-<img src="img/EY GFT Financial Reporting Training176.png" width=203px />
+A cluster that has a small sum of squares is more compact than a cluster that has a large sum of squares\. Clusters that have higher values exhibit greater variability of the observations within the cluster\.
 
+WCSS is influenced by the number of observations\. As the number of observations increases\, the sum of squares increases\.
 
+BCSS measures the squared average distance between all centroids\.
 
----
-
-# Situations to Convert Pivot Tables to Formulas
-
-There are multiple situations in which it is advantageous to convert pivot table to formulas
-
-It is appropriate to convert pivot table to formulas when the user wants to:
+Essentially\, BCSS measures the variation between all clusters\. A large value can indicate clusters that are spread out\, while a small value can indicate clusters that are close to each other\.
 
-  * __Rearrange and delete rows\, columns or cells__
+Within Cluster Sum of Squares
 
-  * __Insert rows and columns__
+<img src="img/Clustering15.jpg" width=500px />
 
-  * __Add a Total row and column__
+<img src="img/Clustering16.png" width=500px />
 
-  * __Format rows and columns__
+Between Clusters Sum of Squares
 
-  * __Use absolute cell references__
 
 
-
 ---
-
-# A. Rearrange and Delete Cells
-
-Customize analysis by moving\, arranging\, and deleting cells and format the cells and worksheet to satisfy user preferences
-
-The ‘2011 Total’ column still re\-flects the original sum and did not refresh
 
-<img src="img/EY GFT Financial Reporting Training177.png" width=500px />
+# Elbow method
 
-The user can highlight rows or columns and delete the selected fields in order to rearrange the  layout of the worksheet\.
+The "elbow" or "knee of a curve" as a cut\-off point is a common heuristic in  optimization to choose a point where diminishing returns are no longer worth the additional cost\.
 
-<img src="img/EY GFT Financial Reporting Training178.png" width=500px />
+In clustering\, this means defining the number of clusters so that adding another cluster doesn't give much better modelling of the data\.
 
+The intuition is that increasing the number of clusters will naturally improve the fit but this might cause over\-fitting\.
 
+Once the number of clusters exceeds the actual number of groups in the data\, the added information will drop sharply\, because it is just subdividing the actual groups\.
 
----
-
-# B. Insert Rows and Columns
-
-Insert rows or columns to format a spreadsheet\, to make additional calculations\, to add formulas\, or to provide supporting commentary or text
-
-<img src="img/EY GFT Financial Reporting Training179.png" width=500px />
+Assuming this happens\, there will be a sharp elbow in the graph of explained variation versus clusters: increasing rapidly up to _k_ \(under\-fitting region\)\, and then increasing slowly after _k_ \(over\-fitting region\)\.
 
-To insert a column\, the user must right click the top of the column that the new column will precede and then select ‘Insert’\.
+x\-axis\-number ofclusters
 
-<img src="img/EY GFT Financial Reporting Training180.png" width=500px />
+y\-axis\-withinClustersum of  squares
 
-<img src="img/EY GFT Financial Reporting Training181.png" width=500px />
+The point atwhich the chartbendsor thewcss becomessmallwould be  consideredas theoptimal numberofclusters
 
-The user can insert text and formulas into the new column\.  In this instance\, total values for Quarter 1 were input and calculated into the new column\.
 
 
-
 ---
-
-# C. Add a Total Column or Row
-
-The user can manually add columns or rows to the worksheet in order to calculate Total columns or rows within the analysis
-
-To calculate the column or row total\, enter the formula ‘=sum\(\)’ with all of the values that make up the sum in between the parentheses\.
 
-<img src="img/EY GFT Financial Reporting Training182.png" width=500px />
+# Applications
 
-<img src="img/EY GFT Financial Reporting Training183.png" width=394px />
+<img src="img/Clustering17.png" width=470px />
 
-<img src="img/EY GFT Financial Reporting Training184.png" width=392px />
+<img src="img/Clustering18.jpg" width=279px />
 
-<img src="img/EY GFT Financial Reporting Training185.png" width=500px />
+<img src="img/Clustering19.png" width=433px />
 
-<img src="img/EY GFT Financial Reporting Training186.png" width=391px />
+<img src="img/Clustering20.jpg" width=500px />
 
-Select the cell with the calculated total/sum and left click the bottom right corner of the cell\. A drag box  ‘\+’ will appear when the bottom right corner is selected \.  Once the drag box appears\, drag the formula across the other cells that require the sum formula and the cells will populate with total values\.
+<img src="img/Clustering21.png" width=275px />
 
 
 
 ---
 
-# D. Format a Total Column or Row
+# Disadvantages
 
-The user can highlight entire rows or columns or select individual cells and then right click to format the cell values
+Difficulty in comparing quality of the clusters produced
 
-<img src="img/EY GFT Financial Reporting Training187.png" width=462px />
+Fixed number of clusters can make it difficult to predict what k should be
 
-<img src="img/EY GFT Financial Reporting Training188.png" width=500px />
+Does not work non globular data
 
-To format the cell values\, right click on an individual cell or a group of highlighted cells and select ‘Format Cells\.\.’  On the ‘Number’ tab\, the user can customize how values are displayed within the cell\.  If the user selects ‘Number’ in the ‘Category:’ section then the user can use commas to separate thousands and can also indicate a negative number by displaying it in red font enclosed in parentheses\.
+Sensitive to Outliers and noise
 
+Low capability to pass the local optimum
 
+<img src="img/Clustering22.jpg" width=500px />
 
----
-
-# E. Use Cell References
-
-The user can alter cell values by using cell references to calculate different results
-
-__TIP:__ The user can select a cell and press ‘F2’ to see which cells/values are being referenced\.
+<img src="img/Clustering23.jpg" width=500px />
 
-<img src="img/EY GFT Financial Reporting Training189.png" width=500px />
 
 
-
 ---
-
-# E. Absolute Cell References
-
-Place a dollar sign ‘$’ before the column letter and/or row number in the formula to lock a column and/or row reference into the formula\.
-
-If you want to create a set of formulas that will always refer to either one specific row: A$1\, or one specific column: $B2\, use a dollar sign in front of the letter or row number\.  This is called an absolute cell reference\.  The letter or number following the dollar sign will remain unchanged if the formula is copied\.  Dollar signs do not change the format of the cell or the value of the formula\.
-
-__TIP__
 
-After entering a formula or highlighting a specific cell reference\, the user can press the F4 key to toggle between relative \(references that adjust and change when copied\) and absolute cell references\.
+# Thank you
 
 
 
