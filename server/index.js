@@ -1,9 +1,11 @@
 const path = require('path');
 const express = require('express');
 const fileUpload = require('express-fileupload');
+const scopackager = require('simple-scorm-packager');
 
 const cors = require('cors');
 const { exec } = require('child_process');
+const { constants } = require('buffer');
 
 const app = express();
 // enable files upload
@@ -29,6 +31,10 @@ app.use((req, res, next) => {
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req,res) => {
+    res.send('cool!!!');
+})
 
 app.get('ppt', (req,res) => {
     res.send('cool!!!');
@@ -111,3 +117,43 @@ app.post('/upload-pptx', async (req, res) => {
         res.status(500).send(err);
     }
 });
+
+// SCORM 
+app.get('/scorm/:file', (req,res) => {
+    console.log(req.params,req.query.file,__dirname);
+
+
+    const config = {
+        version: '1.2',
+        organization: 'EY Hackpinions',
+        title: 'Training Material',
+        language: 'en-US',
+        masteryScore: 80,
+        startingPage: 'index.html',
+        source: path.join(__dirname, 'public/'+req.params.file),
+        package: {
+          version: process.env.npm_package_version,
+          zip: true,
+          author: 'Team Wecode',
+          outputFolder: path.join(__dirname, 'public/scorm_packages'),
+          description: 'A test of the course packaging module',
+          keywords: ['scorm', 'test', 'course'],
+          typicalDuration: 'PT0H5M0S',
+          rights: `©${new Date().getFullYear()} Made with Love during EY HACK. All right reserved.`,
+          vcard: {
+            author: 'Team Wecode',
+            org: 'EY Hackpinions',
+            tel: '(000) 000-0000',
+            address: 'Pune, India',
+            mail: 'shivampathak339@gmail.com',
+            url: 'https://wecodeeyapp.herokuapp.com'
+          }
+        }
+      };
+     
+      scopackager(config, function(msg){
+        console.log(msg);
+        res.send('TrainingMaterial_v1.0.0_2021-01-11.zip');
+        // process.exit(0);
+      });
+})
