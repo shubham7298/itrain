@@ -20,6 +20,13 @@ app.use(express.json());
 // Enable CORS
 app.use(cors());
 
+app.use((req, res, next) => {
+    res.append('Access-Control-Allow-Origin', ['*']);
+    res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.append('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+});
+
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -59,12 +66,14 @@ app.post('/upload-pptx', async (req, res) => {
 
             // Generate MD file
             let ppt_name = ppt_file.name;
-            let nameForShell = ppt_name.replace(/\s/g,'\\ ');
+            // let nameForShell = ppt_name.replace(/\s/g,'\\ ');
+            let nameForShell = ppt_name.replace(/[&*+?^${}()|\s[\]\\]/g, "\\$&");
             console.log(nameForShell);
             let md_child = exec('python3 -m wecode2md uploads/'+nameForShell);
             md_child.stdout.on('data', function(data) {
                 console.log('stdout: ' + data);
-                let nameOfSite = ppt_name.replace(/\s/g,'-');
+                // let nameOfSite = ppt_name.replace(/\s/g,'-');
+                let nameOfSite = ppt_name.replace(/[&*+?^${}()|\s[\]\\]/g, "-");
                 nameOfSite = nameOfSite.slice(0,-5);
                 // generate static site
                 let static_child = exec('reveal-md out.md --css main.css --template custom.html --static-dirs=img --static public/'+nameOfSite);
